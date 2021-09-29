@@ -1,3 +1,22 @@
+Build a Wedding RSVP website
+
+Informational website for guest plus cost saving rsvp attendance and food choice information collection tool for wedding couples. Knowing advanced food choices benefits the couple as they will not have to pay supplement food fees where kitchen has to order more food in to cover costs of wastage.
+
+External user’s goal:
+
+The site’s users have been invited to a wedding and want to RSVP attendance for couples numbers as well as find out details about the wedding day.
+
+Site owner's goal:
+
+The goal of the site is to provide the couples story and information about local amenities and confirm attendance and food choice in advance of event to save food costs.
+
+Potential features to include:
+
+A timeline of events/locations
+Couples story information
+Images/video supporting the couples engagement & story
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome aoifesmith,
