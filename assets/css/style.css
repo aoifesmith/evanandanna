@@ -6,11 +6,11 @@ body {
 
 /* ring hero image */
 #ring-image { 
-    height: 75vh;
-    width: 98vw;
-    margin-left: .5%; 
-    background-image: url('../images/engagement-ring-white-bg.jpg') ;
-    background-repeat: no-repeat;
-    background-size: 2000px 600px;
 
+    min-height: 75vh;
+    width: 99%;
+    margin-left: .5%;
+    background-image: url('../images/engagement-ring-white-bg.jpg');
+    background-position: center;
+    background-size: cover;  
 }
