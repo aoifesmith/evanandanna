@@ -76,3 +76,25 @@ h2 {
     background-position: center;
     background-size: cover;
 }
+
+
+/* footer */
+
+footer {
+    height: 250px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 200%;
+    margin: 5%;
+    padding: 3%;
+    color: #412A20;
+}
