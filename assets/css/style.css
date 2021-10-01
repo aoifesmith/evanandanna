@@ -78,9 +78,12 @@ h2 {
 }
 
 
-
-
 /* form on rsvp.html */
+#form-outer {
+    width: 100%;
+    overflow: hidden;
+}
+
 form {
     width: 500px;
     padding: 25px;
@@ -108,6 +111,18 @@ input[type=text], input[type=email] {
     margin: 0 auto;
 }
 
+input[type=submit] {
+    margin-top: 50px;
+    margin-left: 20rem;
+    padding: 1.25rem;
+    background-color: #412A20;
+    color: #f7f1ed;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
 label {
     margin: 10px 15px 5px 0;
 }
@@ -117,10 +132,6 @@ select {
     width: 100px;
     padding-left: 10px;
 }
-
-
-
-
 
 
 /* footer */
