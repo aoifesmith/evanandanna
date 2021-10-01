@@ -1,16 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto&display=swap');
+
+/* set wildcard selector to control box-model position of design elements */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
 body {
     background-color: #f7f1ed;
-    font-family: arial;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
     color: #412A20;
 }
 
+/* headings and logo*/
+
+h1,
+h2 {
+    font-family: Roboto, sans-serif;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    color: #412A20;
+}
+
+#nav-links {
+    float: right;
+    font-size: 110%;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+}
+
+#nav-links, #logo {
+    line-height: 80px;
+}
+
+#nav-links li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-links a:hover {
+    border-bottom: 1px solid #412A20;
+}
+
+.active {
+    border-bottom: 1px solid #412A20;
+}
+
 /* ring hero image */
-#ring-image { 
+#ring-image {
 
     min-height: 75vh;
     width: 99%;
     margin-left: .5%;
     background-image: url('../images/engagement-ring-white-bg.jpg');
     background-position: center;
-    background-size: cover;  
+    background-size: cover;
 }
