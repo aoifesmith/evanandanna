@@ -36,6 +36,8 @@
             </ul>
         </nav>
     </header>
+
+    <!-- form section start-->
     <section>
         <form action="/rsvp-response.html" method="POST" class="rsvp-form">
             <h2>Thanks for taking the time to RSVP</h2>
@@ -69,7 +71,7 @@
             <fieldset>
                 <legend>Guest 2</legend>
                 <label for="fullname2">Full Name:</label>
-                <input id="fullname2" type="text" name="fullname" placeholder="Please enter your full name" required>
+                <input id="fullname2" type="text" name="fullname" placeholder="Please enter full name or n/a if no plus 1" required>
             </fieldset>
 
             <fieldset>
@@ -100,33 +102,47 @@
             <fieldset>
                 <legend>Additional info/message:</legend>
                 <label for="message">Please include any additional information you would like us to know about:</label>
-                <textarea name="message" id="message" cols="50" rows="8"></textarea>
+                <textarea name="message" id="message" cols="60" rows="8"></textarea>
             </fieldset>
 
             <input type="submit" value="submit">
 
         </form>
     </section>
-    
+    <!-- form section end-->
+
     <footer>
-        <ul>
+        <p id="social-memories">We plan to put more of our budget towards the entertainment and catering so we have only
+            booked a photographer for the ceremony and an hour for photos family and group shots. We would ge grateful if you could share and
+            tag photos and memories using the #evanandannamemories as we would love to create a documentary style
+            digital and coffee book with these. You can follow our journey, inspirations and keep in touch using on our
+            social links in advance of the big day!</p>
+
+        <ul class="social-links">
             <li>
-                <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Follow us on our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+                <a href="http://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Follow us on our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-                <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Follow us on our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                <a href="http://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Follow us on our Instagram page (opens in a new tab)"><i
+                        class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <a href="http://pinterest.com" target="_blank" rel="noopener" aria-label="See our Pinterest inspiration boards (opens in a new tab)"><i class="fab fa-pinterest-p"></i></a>
+                <a href="http://pinterest.com" target="_blank" rel="noopener"
+                    aria-label="See our Pinterest inspiration boards (opens in a new tab)"><i
+                        class="fab fa-pinterest-p"></i></a>
             </li>
             <li>
-                <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Follow us on our Instagram page (opens in a new tab)"><i class="fas fa-envelope"></i></a>
+                <a href="http://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Follow us on our Instagram page (opens in a new tab)"><i
+                        class="fas fa-envelope"></i></a>
             </li>
         </ul>
     </footer>
 
     <!-- font awesome script-->
-    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/603ef79b4c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

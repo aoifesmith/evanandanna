@@ -78,6 +78,51 @@ h2 {
 }
 
 
+
+
+/* form on rsvp.html */
+form {
+    width: 500px;
+    padding: 25px;
+    border-radius: 8px;
+    margin 25px auto;
+    background-color: #ddd6d2;
+}
+
+fieldset {
+    border: none;
+    margin-top: 15px;
+}
+
+legend {
+    font-size: 120%;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+
+input[type=text], input[type=email] {
+    height: 30px;
+    width: 60%;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+select {
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
 /* footer */
 
 footer {
@@ -106,3 +151,5 @@ footer {
     padding: 1%;
     color: #412A20;
 }
+
+
