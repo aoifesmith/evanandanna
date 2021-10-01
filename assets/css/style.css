@@ -13,6 +13,8 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
     color: #412A20;
+    width: 99%;
+    margin-left: .5%;
 }
 
 /* headings and logo*/
@@ -26,6 +28,7 @@ h2 {
     float: left;
     font-size: 200%;
     color: #412A20;
+    margin-left: .5%;
 }
 
 #nav-links {
@@ -60,11 +63,15 @@ h2 {
 }
 
 /* ring hero image */
-#ring-image {
 
-    min-height: 75vh;
-    width: 99%;
-    margin-left: .5%;
+#ring-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#ring-image {
+    height: 600px;
     background-image: url('../images/engagement-ring-white-bg.jpg');
     background-position: center;
     background-size: cover;
