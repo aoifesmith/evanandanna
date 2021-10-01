@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Evan and Anna's Wedding Invitations RSVP & Information Website">
+    <meta name="keywords" content="wedding rsvp, evan and anna's wedding, wedding itinerary, wedding schedule">
+    <meta name="author" content="Evan and Anna">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Evan And Anna</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" aria-label="Go to the home page">
+            <h1 id="logo">EVAN AND ANNA</h1>
+        </a>
+        <nav>
+            <ul id="nav-links">
+                <li>
+                    <a href="index.html" aria-label="Go to the home page">Home</a>
+
+                </li>
+                <li>
+                    <a href="rsvp.html" class="active" aria-label="Go to the RSVP page">RSVP</a>
+                </li>
+                <li>
+                    <a href="#">Our Story</a>
+                </li>
+                <li>
+                    <a href="#">Details</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="/rsvp-response.html" method="POST" class="rsvp-form">
+            <h2>Thanks for taking the time to RSVP</h2>
+
+            <fieldset>
+                <legend>Guest 1</legend>
+                <label for="fullname1">Full Name:</label>
+                <input id="fullname1" type="text" name="fullname" placeholder="Please enter your full name" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="attendance1">Attendance:</label>
+                <select name="attendance" id="attendance1">
+                    <option value="accept">Accept</option>
+                    <option value="decline">Decline</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                Meal choice:
+                <input id="meat1" name="meal-choice1" type="radio" value="meat1" required>
+                <label for="meat1">Meat</label>
+                <input id="fish1" name="meal-choice1" type="radio" value="fish1" required>
+                <label for="fish1">Meat</label>
+                <input id="vegetarian1" name="meal-choice1" type="radio" value="vegetarian1" required>
+                <label for="vegetarian1">Vegetarian</label>
+                <input id="vegan1" name="meal-choice1" type="radio" value="vegan1" required>
+                <label for="vegan1">Vegetarian</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Guest 2</legend>
+                <label for="fullname2">Full Name:</label>
+                <input id="fullname2" type="text" name="fullname" placeholder="Please enter your full name" required>
+            </fieldset>
+
+            <fieldset>
+                <label for="attendance2">Attendance:</label>
+                <select name="attendance" id="attendance2">
+                    <option value="accept">Accept</option>
+                    <option value="decline">Decline</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                Meal choice:
+                <input id="meat2" name="meal-choice2" type="radio" value="meat2" required>
+                <label for="meat2">Meat</label>
+                <input id="fish2" name="meal-choice2" type="radio" value="fish2" required>
+                <label for="fish2">Meat</label>
+                <input id="vegetarian2" name="meal-choice2" type="radio" value="vegetarian2" required>
+                <label for="vegetarian2">Vegetarian</label>
+                <input id="vegan2" name="meal-choice2" type="radio" value="vegan2" required>
+                <label for="vegan2">Vegetarian</label>
+            </fieldset>
+
+            <fieldset>
+                <label for="email">Email Address:</label>
+                <input id="email" name="email" type="email" placeholder="Enter email here" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional info/message:</legend>
+                <label for="message">Please include any additional information you would like us to know about:</label>
+                <textarea name="message" id="message" cols="50" rows="8"></textarea>
+            </fieldset>
+
+            <input type="submit" value="submit">
+
+        </form>
+
+    </section>
+    <footer>
+        Social links
+    </footer>
+</body>
+
+</html>
