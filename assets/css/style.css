@@ -7,7 +7,6 @@
     border: none;
 }
 
-
 body {
     background-color: #f7f1ed;
     font-family: Raleway, sans-serif;
@@ -40,7 +39,8 @@ h2 {
     align-items: right;
 }
 
-#nav-links, #logo {
+#nav-links,
+#logo {
     line-height: 80px;
 }
 
@@ -62,7 +62,7 @@ h2 {
     border-bottom: 1px solid #412A20;
 }
 
-/* ring hero image */
+/* rsvp section - ring image & button to direct to RSVP page*/
 
 #ring-outer {
     height: 600px;
@@ -75,6 +75,18 @@ h2 {
     background-image: url('../images/engagement-ring-white-bg.jpg');
     background-position: center;
     background-size: cover;
+}
+
+#rsvp-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    background-color: #412A20;
+    color: #f7f1ed;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 110%;
 }
 
 
@@ -106,7 +118,8 @@ legend {
     margin: 20px 0 10px 0;
 }
 
-input[type=text], input[type=email] {
+input[type=text],
+input[type=email] {
     height: 30px;
     width: 60%;
     padding-left: 10px;
@@ -145,7 +158,7 @@ select {
     background-color: #faf9f9;
     font-size: 16px;
     resize: none;
-  }
+}
 
 
 /* rsvp-response */
@@ -154,7 +167,7 @@ select {
     width: 100%;
     overflow: hidden;
     text-align: center;
-   
+
 }
 
 
@@ -167,19 +180,19 @@ footer {
 .social-memories {
     margin-top: 1%;
     font-family: Raleway;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: 2%;
-	background-color: #3d2921;
-	line-height: 1.6em;
-	color: #faf9f9; 
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    background-color: #3d2921;
+    line-height: 1.6em;
+    color: #faf9f9;
     text-align: center;
-	border-radius: 8px;
+    border-radius: 8px;
 }
 
 .social-memories strong {
-	color: #F2BAD4;
-	font-size: 120%;
+    color: #F2BAD4;
+    font-size: 120%;
 
 }
 
@@ -187,7 +200,7 @@ footer {
     text-align: center;
 }
 
-.social-links > li {
+.social-links>li {
     display: inline;
 }
 
@@ -197,5 +210,3 @@ footer {
     padding: 1%;
     color: #412A20;
 }
-
-
