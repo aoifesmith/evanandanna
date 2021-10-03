@@ -79,7 +79,7 @@ h2 {
 
 
 /* form on rsvp.html */
-#form-outer {
+#form-container {
     width: 100%;
     overflow: hidden;
 }
@@ -87,7 +87,7 @@ h2 {
 form {
     width: 500px;
     padding: 25px;
-    border-radius: 8px;
+    border-radius: 80px;
     margin 25px auto;
     background-color: #ddd6d2;
 }
