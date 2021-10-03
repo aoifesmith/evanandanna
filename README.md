@@ -19,17 +19,17 @@ The site users have been invited to a wedding and want to RSVP attendance for co
 
 ### Site Owner Goals:
 The goal of the site is for site owners to:
-Confirm guest attendance and food choice in advance of their wedding to save food costs.
-Provide the couples story
-Provide information about local amenities. 
-Request guests to get involved in the document their memories through social profiles to create a digital album of their journey.
+  * Confirm guest attendance and food choice in advance of their wedding to save food costs.
+  * Provide the couples story
+  * Provide information about local amenities. 
+  * Request guests to get involved in the document their memories through social profiles to create a digital album of their journey.
 
 ### Potential features to include:
-A timeline of events/locations
-Couples story information
-Images/video supporting the couples engagement & story
-Form to submit attendance and food choice details
-Contact and social information links to follow and share in couples journey.
+  * A timeline of events/locations
+  * Couples story information
+  * Images/video supporting the couples engagement & story
+  * Form to submit attendance and food choice details
+  * Contact and social information links to follow and share in couples journey.
 
 ### User Stories:
 
@@ -46,7 +46,7 @@ Contact and social information links to follow and share in couples journey.
    
 ### Wireframes:
    Wireframes were originally hand sketched designs created to aid planning the website layout. These were then created using [balsamic](https://balsamiq.com/). These include link references to other pages such as RSVP button on home page to the RSVP form page, navigation menu links etc. for user design clarity and quick navigation. 
-    * Mobile, Tablet, and Desktop wireframes are all available [here](/docs/wireframes/evanandanna-wireframes.pdf)
+    * Mobile, Tablet, and Desktop wireframes are all available [here](docs/wireframes/evanandanna-wireframes.pdf)
  
 ![Evanandanna homepage wireframe](docs/wireframes/index-all-devices-wireframe.jpg)
  ![RSVP page wireframe with form submission](docs/wireframes/rsvp-all-devices-wireframe.jpg)
