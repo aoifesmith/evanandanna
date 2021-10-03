@@ -79,7 +79,7 @@ h2 {
 
 
 /* form on rsvp.html */
-#form-container {
+#form-outer {
     width: 100%;
     overflow: hidden;
 }
@@ -140,12 +140,23 @@ footer {
     height: 20px;
 }
 
-#social-memories {
+.social-memories {
     margin-top: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    font-family: Raleway;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 2%;
+	background-color: #3d2921;
+	line-height: 1.6em;
+	color: #faf9f9; 
     text-align: center;
-    font-size: 115%;
+	border-radius: 8px;
+}
+
+.social-memories strong {
+	color: #F2BAD4;
+	font-size: 120%;
+
 }
 
 .social-links {
