@@ -46,14 +46,14 @@ Contact and social information links to follow and share in couples journey.
    
 ### Wireframes:
    Wireframes were originally hand sketched designs created to aid planning the website layout. These were then created using [balsamic](https://balsamiq.com/). These include link references to other pages such as RSVP button on home page to the RSVP form page, navigation menu links etc. for user design clarity and quick navigation. 
-    * Mobile, Tablet, and Desktop wireframes are all available [here.](docs/evanandanna-wireframes.pdf)
+    * Mobile, Tablet, and Desktop wireframes are all available [here](/docs/wireframes/evanandanna-wireframes.pdf)
  
-![Evanandanna homepage wireframe](docs/index-all-devices-wireframe.jpg)
- ![RSVP page wireframe with form submission](docs/rsvp-all-devices-wireframe.jpg)
-   ![Our Story page wireframe](docs/our-story-all-devices-wireframe.jpg)
-    ![Details page wireframe](docs/details-all-devices-wireframe.jpg)
-    ![RSVP wireframe to acknowledge successful form submission](docs/rsvp-response-all-devices-wireframe.jpg)
-      ![Error404 wireframe styled for site consistency](docs/error404-all-devices-wireframe.jpg)
+![Evanandanna homepage wireframe](docs/wireframes/index-all-devices-wireframe.jpg)
+ ![RSVP page wireframe with form submission](docs/wireframes/rsvp-all-devices-wireframe.jpg)
+   ![Our Story page wireframe](docs/wireframes/our-story-all-devices-wireframe.jpg)
+    ![Details page wireframe](docs/wireframes/details-all-devices-wireframe.jpg)
+    ![RSVP wireframe to acknowledge successful form submission](docs/wireframes/rsvp-response-all-devices-wireframe.jpg)
+      ![Error404 wireframe styled for site consistency](docs/wireframes/error404-all-devices-wireframe.jpg)
 
 
 
