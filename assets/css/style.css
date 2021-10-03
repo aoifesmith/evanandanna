@@ -134,6 +134,14 @@ select {
 }
 
 
+/* rsvp-response */
+
+#thank-you {
+    text-align: center;
+    margin-top: 20%;
+}
+
+
 /* footer */
 
 footer {
