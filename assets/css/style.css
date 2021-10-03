@@ -151,8 +151,10 @@ select {
 /* rsvp-response */
 
 #thank-you {
+    width: 100%;
+    overflow: hidden;
     text-align: center;
-    margin-top: 20%;
+   
 }
 
 
