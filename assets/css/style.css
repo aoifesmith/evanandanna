@@ -67,7 +67,7 @@ h2 {
 }
 
 #ring-image {
-    height: 500px;
+    height: 600px;
     background-image: url('../images/engagement-ring-white-bg.jpg');
     background-position: center;
     background-size: cover;
@@ -202,6 +202,8 @@ footer {
 .social-memories strong {
     color: #F2BAD4;
     font-size: 120%;
+    font-weight: bolder;
+    letter-spacing: 150%;
 }
 
 .social-links {
@@ -234,9 +236,14 @@ footer {
         font-size: smaller;
     }
 
+    #ring-container {
+        height: 300px;
+    }
+
     #ring-image {
         height: 300px;
     }
+
 
     .social-memories {
         width: 90%;
