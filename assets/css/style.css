@@ -10,9 +10,7 @@
 body {
     background-color: #f7f1ed;
     font-family: Raleway, sans-serif;
-    font-weight: 400;
     color: #412A20;
-    width: 99%;
     margin-left: .5%;
 }
 
@@ -35,7 +33,6 @@ h2 {
     font-size: 110%;
     letter-spacing: 2px;
     display: flex;
-    justify-content: space-around;
     align-items: right;
 }
 
@@ -56,9 +53,11 @@ h2 {
 
 #nav-links a:hover {
     border-bottom: 1px solid #412A20;
+    font-weight: 600;
 }
 
 .active {
+    font-weight: 500;
     border-bottom: 1px solid #412A20;
 }
 
@@ -209,4 +208,22 @@ footer {
     margin: 2%;
     padding: 1%;
     color: #412A20;
+}
+
+
+
+/* media query to enable responsive navigation */
+
+@media only screen and (max-width: 760px) {
+
+    #nav-links,#logo {
+        line-height: 40px;
+        float: left;
+    }
+
+    #nav-links li {
+        list-style-type: none;  
+        margin-right: 20px; 
+       font-size: smaller;
+    }
 }
