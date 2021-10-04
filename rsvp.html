@@ -59,7 +59,8 @@
 
             <fieldset>
                 <label for="attendance1">Attendance:</label>
-                <select name="attendance" id="attendance1">
+                <select name="attendance" id="attendance1" required>
+                    <option value="">Select</option>
                     <option value="accept">Accept</option>
                     <option value="decline">Decline</option>
                 </select>
@@ -87,9 +88,11 @@
 
             <fieldset>
                 <label for="attendance2">Attendance:</label>
-                <select name="attendance" id="attendance2">
+                <select name="attendance" id="attendance2" required>
+                    <option value="">Select</option>
                     <option value="accept">Accept</option>
                     <option value="decline">Decline</option>
+                    <option value="no-plus-1">n/a</option>
                 </select>
             </fieldset>
 
@@ -103,7 +106,7 @@
                 <label for="vegetarian2">Vegetarian</label>
                 <input id="vegan2" name="meal-choice2" type="radio" value="vegan2" required>
                 <label for="vegan2">Vegan</label>
-                <input id="none" name="meal-choice2" type="radio" value="none" required>
+                <input id="none" name="meal-choice2" type="radio" value="" required>
                 <label for="none2">None</label>
             </fieldset>
 
