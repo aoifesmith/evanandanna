@@ -219,7 +219,7 @@ footer {
     color: #F2BAD4;
     font-size: 120%;
     font-weight: bolder;
-    letter-spacing: 150%;
+    letter-spacing: 1px;
 }
 
 .social-links {
