@@ -108,25 +108,32 @@ h2 {
 }
 
 form {
-    width: 800px;
+    width: 60%;
     padding: 25px;
     border-radius: 8px;
-    margin-left: 12%;
-    margin-right: 10%;
-    margin 25px auto;
+    margin: auto;
     background-color: #ddd6d2;
+}
+
+form p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+form hr {
+   margin-top: 20px;
 }
 
 fieldset {
     border: none;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 legend {
     font-size: 120%;
     font-weight: 600;
     text-transform: uppercase;
-    margin: 20px 0 10px 0;
+    margin: 80px 0 10px 0;
 }
 
 input[type=text],
@@ -139,7 +146,7 @@ input[type=email] {
 
 input[type=submit] {
     margin-top: 50px;
-    margin-left: 20rem;
+    float: right;
     padding: 1.25rem;
     background-color: #412A20;
     color: #f7f1ed;
@@ -147,6 +154,11 @@ input[type=submit] {
     border-radius: 5px;
     font-size: 110%;
     text-transform: uppercase;
+}
+input[type=submit]:hover {
+        background-color: #6d5043;
+        color: #f7f1ed;
+        font-size: larger;
 }
 
 label {
@@ -161,12 +173,12 @@ select {
 
 #message {
     width: 90%;
+    margin-top: 10px;
     height: 180px;
     padding: 12px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: #faf9f9;
     font-size: 16px;
     resize: none;
 }
@@ -197,6 +209,10 @@ footer {
     color: #faf9f9;
     text-align: center;
     border-radius: 8px;
+}
+
+.social-memories p {
+    margin-top: 15px;
 }
 
 .social-memories strong {
@@ -244,9 +260,26 @@ footer {
         height: 300px;
     }
 
-
     .social-memories {
         width: 90%;
     }
+
+    form {
+        width: 95%;
+        padding: 5px;
+        margin: auto;
+    }
+
+    input[type=submit] {
+        margin-top: 10px;
+        background-color: #6d5043;
+        color: #f7f1ed;
+
+    }
+
+    input[type=submit]:hover {
+        background-color: #F2BAD4;
+        color: #412A20;
+}
 
 }
