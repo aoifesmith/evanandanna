@@ -4,18 +4,15 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 body {
     background-color: #f7f1ed;
     font-family: Raleway, sans-serif;
     color: #412A20;
-    margin-left: .5%;
 }
 
 /* headings and logo*/
-
 h1,
 h2 {
     font-family: Roboto, sans-serif;
@@ -63,31 +60,46 @@ h2 {
 
 /* rsvp section - ring image & button to direct to RSVP page*/
 
-#ring-outer {
+#ring-container {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
 #ring-image {
-    height: 600px;
+    height: 500px;
     background-image: url('../images/engagement-ring-white-bg.jpg');
     background-position: center;
     background-size: cover;
 }
 
+#ring-image a {
+    text-decoration: none;  
+}
+
+#ring-image h2 {
+    text-align: center;
+    margin-top: 1%;
+    text-transform: uppercase;
+}
+
 #rsvp-btn {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .5rem;
+    padding: .75rem 1.2rem;
     background-color: #412A20;
     color: #f7f1ed;
-    border: 2px;
     border-radius: 5px;
     font-size: 110%;
 }
 
+#rsvp-btn:hover {
+    background-color: #6d5043;
+    color: #f7f1ed;
+    font-size: larger;
+  }
 
 /* form on rsvp.html */
 #form-container {
@@ -159,7 +171,6 @@ select {
     resize: none;
 }
 
-
 /* rsvp-response */
 
 #thank-you {
@@ -169,7 +180,6 @@ select {
 
 }
 
-
 /* footer */
 
 footer {
@@ -177,10 +187,10 @@ footer {
 }
 
 .social-memories {
+    width: 80%;
+    margin: auto;
     margin-top: 1%;
     font-family: Raleway;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 2%;
     background-color: #3d2921;
     line-height: 1.6em;
@@ -192,14 +202,13 @@ footer {
 .social-memories strong {
     color: #F2BAD4;
     font-size: 120%;
-
 }
 
 .social-links {
     text-align: center;
 }
 
-.social-links>li {
+.social-links > li {
     display: inline;
 }
 
@@ -210,20 +219,27 @@ footer {
     color: #412A20;
 }
 
+/* media query to enable responsivity*/
 
+@media only screen and (max-width: 740px) {
 
-/* media query to enable responsive navigation */
-
-@media only screen and (max-width: 760px) {
-
-    #nav-links,#logo {
+    #nav-links,
+    #logo {
         line-height: 40px;
-        float: left;
     }
 
     #nav-links li {
-        list-style-type: none;  
-        margin-right: 20px; 
-       font-size: smaller;
+        list-style-type: none;
+        margin-right: 20px;
+        font-size: smaller;
     }
+
+    #ring-image {
+        height: 300px;
+    }
+
+    .social-memories {
+        width: 90%;
+    }
+
 }
