@@ -101,9 +101,55 @@ h2 {
     font-size: larger;
 }
 
+
+/* our story section on index.html landing page */
+
+#story h2 {
+    text-decoration: none;
+    color: inherit;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+#story h2:hover {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.story-container {
+    margin: 0 auto;
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-auto-rows: auto;
+    gap: 40px;
+    padding: 2%;
+}
+
+.story-image {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+}
+
+.story-text {
+    padding: 15px;
+    background: #ddd6d2;
+}
+
+.story-text a {
+    text-decoration: none;
+}
+
+.story-text a:hover {
+    text-decoration: underline;
+    font-weight: bold;  
+}
+
+
 /* timeline events on index.html */
-
-
 
 #schedule {
     width: 80%;
