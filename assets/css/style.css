@@ -141,11 +141,14 @@ h2 {
 
 .story-text a {
     text-decoration: none;
+    color: inherit;
+    font-weight:bolder;
+    font-style: italic;
 }
 
 .story-text a:hover {
     text-decoration: underline;
-    font-weight: bold;  
+    font-weight: 220%;  
 }
 
 
@@ -363,13 +366,11 @@ footer {
     #ring-image {
         height: 300px;
     }
-
     
     .story-container {
         gap: 10px;
         padding: 2%;
     }
-    
     
     .story-image {
         height: 300px;
