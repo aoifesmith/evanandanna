@@ -9,6 +9,7 @@
 body {
     background-color: #f7f1ed;
     font-family: Raleway, sans-serif;
+    font-size: 130%;
     color: #412A20;
 }
 
@@ -16,6 +17,22 @@ body {
 h1,
 h2 {
     font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 120%;
+}
+
+h2 a:hover {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: larger;
+    color: red;
+    margin-top: 10%;
 }
 
 #logo {
@@ -79,7 +96,7 @@ h2 {
 
 #ring-image h2 {
     text-align: center;
-    margin-top: 1%;
+    margin-top: 2%;
     text-transform: uppercase;
 }
 
@@ -104,19 +121,6 @@ h2 {
 
 /* our story section on index.html landing page */
 
-#story h2 {
-    text-decoration: none;
-    color: inherit;
-    font-size: 120%;
-    text-transform: uppercase;
-}
-
-#story h2:hover {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: larger;
-}
-
 .story-container {
     margin: 0 auto;
     max-width: 700px;
@@ -137,6 +141,7 @@ h2 {
 .story-text {
     padding: 15px;
     background: #ddd6d2;
+    text-align: center;
 }
 
 .story-text a {
@@ -160,30 +165,22 @@ h2 {
     overflow: hidden;
 }
 
-#schedule a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 120%;
-    text-transform: uppercase;
-}
-
-#schedule a:hover {
-    text-decoration: none;
-    font-weight: 600;
-    font-size: larger;
-}
-
 #schedule div {
     color: #412A20;
     background-color: #ddd6d2 ;
     width: 33%;
-    height: 300px;
+    height: 320px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 4px solid #f7f1ed;
     box-sizing: border-box;
     border-radius: 8px;
+}
+
+#schedule h4 {
+    color: red;
+    margin-top: 8px;
 }
 
 #schedule i {
@@ -336,7 +333,7 @@ footer {
     #schedule > div {
         width: 100%;
         clear: both;
-        height: 150px;
+        height: 200px;
         padding: 0;
     }
 
