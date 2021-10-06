@@ -11,6 +11,7 @@ body {
     font-family: Raleway, sans-serif;
     font-size: 130%;
     color: #412A20;
+    font-display: swap;
 }
 
 /* headings and logo*/
@@ -21,6 +22,7 @@ h2 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-display: swap;
 }
 
 h2 a {
@@ -93,7 +95,7 @@ hr {
 
 #ring-image {
     height: 600px;
-    background-image: url('../images/engagement-ring-white-bg.jpg');
+    background-image: url('../images/engagement-rings.jpg');
     background-position: center;
     background-size: cover;
 }
