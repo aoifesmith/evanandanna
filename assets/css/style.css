@@ -105,8 +105,11 @@ hr {
 
 #ring-image h2 {
     text-align: center;
-    margin-top: 2%;
     text-transform: uppercase;
+}
+
+#form-btn {
+    background-color: transparent;
 }
 
 #rsvp-btn {
