@@ -351,6 +351,13 @@ footer {
     color: #412A20;
 }
 
+/* Details.html styling */
+
+.details-intro p {
+    margin: auto;
+    width: 80%;
+}
+
 /* media query to enable responsivity*/
 
 @media screen and (max-width: 1024px) {
