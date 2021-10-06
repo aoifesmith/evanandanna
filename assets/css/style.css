@@ -32,7 +32,7 @@ h2 a {
 h2 a:hover {
     text-decoration: none;
     font-weight: 900;
-    font-size: bold;
+    font-size: 150%;
     color: #6d5043;
     margin-top: 10%;
 }
@@ -56,7 +56,6 @@ hr {
     font-size: 110%;
     letter-spacing: 2px;
     display: flex;
-    align-items: right;
 }
 
 #nav-links,
@@ -165,7 +164,6 @@ hr {
 
 .story-text a:hover {
     text-decoration: underline;
-    font-weight: 220%;  
 }
 
 
