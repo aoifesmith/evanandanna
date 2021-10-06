@@ -19,6 +19,8 @@ h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h2 a {
@@ -30,9 +32,16 @@ h2 a {
 h2 a:hover {
     text-decoration: none;
     font-weight: 900;
-    font-size: larger;
-    color: red;
+    font-size: bold;
+    color: #6d5043;
     margin-top: 10%;
+}
+
+hr {
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
 }
 
 #logo {
@@ -179,7 +188,6 @@ h2 a:hover {
 }
 
 #schedule h4 {
-    color: red;
     margin-top: 8px;
 }
 
@@ -326,8 +334,24 @@ footer {
     color: #412A20;
 }
 
-/* media query to enable responsivity*/
+/* Contact Us Section in response-rsvp.html, details.html & error404.html */
 
+.contact {
+    text-align: center;
+}
+
+.contact > li {
+    display: inline;
+}
+
+.contact i {
+    font-size: 200%;
+    margin: 2%;
+    padding: 1%;
+    color: #412A20;
+}
+
+/* media query to enable responsivity*/
 
 @media screen and (max-width: 1024px) {
     #schedule > div {
@@ -393,6 +417,12 @@ footer {
     input[type=submit]:hover {
         background-color: #F2BAD4;
         color: #412A20;
+    }
+
+    .contact i {
+        font-size: 120%;
+        margin: 1%;
+        padding: 0%;
     }
 
 }
