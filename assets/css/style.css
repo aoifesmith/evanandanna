@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -136,6 +137,7 @@ hr {
 
 .story-container {
     margin: 0 auto;
+    margin-top: -1%;
     max-width: 700px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -354,6 +356,29 @@ footer {
     color: #412A20;
 }
 
+/* About us section in story.html. 4 columns */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 20%; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .about-image {
+    height : 300px;
+    margin-top: 10%;
+    margin-bottom: 10%;  
+  }
+
+
+
 /* Details.html styling */
 
 .details-intro p {
@@ -409,6 +434,18 @@ footer {
         font-size: 200%;
         margin-top: 2%;
     }
+
+    .column {
+        width: 50%;
+        padding: 10px;
+        height: 500px; 
+      }
+
+      .about-image {
+        height: 500px;
+        margin-top: 10%;
+        margin-bottom: 10%;  
+      }
 }
 
 @media only screen and (max-width: 740px) {
@@ -468,5 +505,13 @@ footer {
         margin: 1%;
         padding: 0%;
     }
+
+    .column {
+        width: 100%;
+      }
+
+    .about-image {
+        height: 50%;
+      }
 
 }
