@@ -377,6 +377,25 @@ footer {
     margin-bottom: 10%;  
   }
 
+  /* how we met section in story.html */
+
+  .how-we-met {
+    margin:auto; 
+    width: 80%;
+   }
+   
+   .meet-image {
+       text-align: center;
+   }
+   
+   .meet-video {
+       text-align: center;
+   }
+   .how-we-met img {
+       height: 500px;
+   }
+
+
 
 
 /* Details.html styling */
