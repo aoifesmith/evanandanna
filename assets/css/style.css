@@ -450,6 +450,10 @@ footer {
 
 @media only screen and (max-width: 740px) {
 
+    #nav-links {
+        margin-right: 30px;
+    }
+
     #nav-links,
     #logo {
         line-height: 40px;
