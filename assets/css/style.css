@@ -391,6 +391,10 @@ footer {
     font-weight: bolder;
 }
 
+.question {
+    font-weight: bold;
+}
+
 /* media query to enable responsivity*/
 
 @media screen and (max-width: 1024px) {
