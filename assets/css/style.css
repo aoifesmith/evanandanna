@@ -359,6 +359,36 @@ footer {
 .details-intro p {
     margin: auto;
     width: 80%;
+    margin-bottom: 1.5%;
+}
+
+#map {
+    height: 300px;
+    width: 80%; 
+    margin:auto;
+    border-color: #6d5043;
+    border-radius: 8px;
+}
+
+.accom-list {
+    background-color: #412A20;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 8px;
+    width: 80%;
+    margin:auto;
+    color: #faf9f9;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+.accom-list a {
+    color: #faf9f9;
+    text-decoration: none;
+}
+.accom-list a:hover {
+    font-weight: bolder;
 }
 
 /* media query to enable responsivity*/
