@@ -384,6 +384,17 @@ footer {
 
 /* how we met section in story.html */
 
+#video-container {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
 .how-we-met {
     margin: auto;
     width: 80%;
@@ -412,9 +423,15 @@ footer {
     margin-bottom: 1.5%;
 }
 
+#map-outer {
+    width:80%;
+    height:400px;
+    margin:auto;
+}
+
 #map {
-    height: 300px;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     margin: auto;
     border-color: #6d5043;
     border-radius: 8px;
