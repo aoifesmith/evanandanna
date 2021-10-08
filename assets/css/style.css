@@ -44,7 +44,7 @@ hr {
     margin: auto;
     width: 80%;
     margin-top: 20px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 #logo {
@@ -162,7 +162,7 @@ hr {
 .story-text a {
     text-decoration: none;
     color: inherit;
-    font-weight:bolder;
+    font-weight: bolder;
     font-style: italic;
 }
 
@@ -181,7 +181,7 @@ hr {
 
 #schedule div {
     color: #412A20;
-    background-color: #ddd6d2 ;
+    background-color: #ddd6d2;
     width: 33%;
     height: 320px;
     float: left;
@@ -345,7 +345,7 @@ footer {
     text-align: center;
 }
 
-.contact > li {
+.contact>li {
     display: inline;
 }
 
@@ -356,44 +356,50 @@ footer {
     color: #412A20;
 }
 
-/* About us section in story.html. 4 columns */
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    height: 20%; 
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .about-image {
-    height : 300px;
-    margin-top: 10%;
-    margin-bottom: 10%;  
-  }
-
-  /* how we met section in story.html */
-
-  .how-we-met {
-    margin:auto; 
+/* about us section, how we met and engagement story in story.html */
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #f7f1ed;
     width: 80%;
-   }
-   
-   .meet-image {
-       text-align: center;
-   }
-   
-   .meet-video {
-       text-align: center;
-   }
-   .how-we-met img {
-       height: 500px;
-   }
+    margin: auto;
+}
+
+.flex-responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+.items {
+    background-color: #ddd6d2;
+    width: fit-content;
+    margin: 10px;
+    text-align: center;
+}
+
+.items img {
+    height: fit-content;
+    width: 100%;
+}
+
+/* how we met section in story.html */
+
+.how-we-met {
+    margin: auto;
+    width: 80%;
+}
+
+.meet-image {
+    text-align: center;
+}
+
+.meet-video {
+    text-align: center;
+}
+
+.how-we-met img {
+    height: 500px;
+}
 
 
 
@@ -408,8 +414,8 @@ footer {
 
 #map {
     height: 300px;
-    width: 80%; 
-    margin:auto;
+    width: 80%;
+    margin: auto;
     border-color: #6d5043;
     border-radius: 8px;
 }
@@ -420,7 +426,7 @@ footer {
     list-style-type: none;
     border-radius: 8px;
     width: 80%;
-    margin:auto;
+    margin: auto;
     color: #faf9f9;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -431,6 +437,7 @@ footer {
     color: #faf9f9;
     text-decoration: none;
 }
+
 .accom-list a:hover {
     font-weight: bolder;
 }
@@ -442,7 +449,7 @@ footer {
 /* media query to enable responsivity*/
 
 @media screen and (max-width: 1024px) {
-    #schedule > div {
+    #schedule>div {
         width: 100%;
         clear: both;
         height: 200px;
@@ -454,17 +461,21 @@ footer {
         margin-top: 2%;
     }
 
-    .column {
-        width: 50%;
-        padding: 10px;
-        height: 500px; 
-      }
+    .flex-container {
+        flex-direction: column;
+        width: 90%;
+    }
 
-      .about-image {
-        height: 500px;
-        margin-top: 10%;
-        margin-bottom: 10%;  
-      }
+    .items {
+        font-size: 130%;
+    }
+
+    .items p {
+        text-align: justify;
+        margin: 5%;
+    }
+
+
 }
 
 @media only screen and (max-width: 740px) {
@@ -491,14 +502,17 @@ footer {
     #ring-image {
         height: 300px;
     }
-    
-    .story-container {
-        gap: 10px;
-        padding: 2%;
+
+    .flex-responsive {
+        flex-direction: column;
     }
-    
+
+    .items img {
+        height: fit-content;
+    }
+
     .story-image {
-        height: 300px;
+        height: 600px;
     }
 
     .social-memories {
@@ -531,10 +545,10 @@ footer {
 
     .column {
         width: 100%;
-      }
+    }
 
     .about-image {
         height: 50%;
-      }
+    }
 
 }
