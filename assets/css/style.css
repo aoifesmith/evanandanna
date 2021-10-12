@@ -493,6 +493,12 @@ video {
         margin-top: 2%;
     }
 
+    form {
+        width: 80%;
+        padding: 15px;
+        margin: auto;
+    }
+
     .flex-container {
         flex-direction: column;
         width: 95%;
@@ -510,10 +516,85 @@ video {
 
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 768px) {
 
     #nav-links {
-        margin-right: 30px;
+        margin-right: 10px;
+    }
+
+    #nav-links,
+    #logo {
+        line-height: 50px;
+    }
+
+    #nav-links li {
+        list-style-type: none;
+        margin-right: 15px;
+        font-size: smaller;
+    }
+
+    #ring-container {
+        height: 300px;
+    }
+
+    #ring-image {
+        height: 300px;
+    }
+
+    .flex-responsive {
+        flex-direction: column;
+    }
+
+    .items img {
+        height: fit-content;
+    }
+
+    .story-image {
+        height: 600px;
+    }
+
+    .social-memories {
+        width: 90%;
+    }
+
+    form {
+        width: 95%;
+        padding: 5px;
+        margin: auto;
+    }
+
+    input[type=submit] {
+        margin-top: 10px;
+        background-color: #6d5043;
+        color: #f7f1ed;
+
+    }
+
+    input[type=submit]:hover {
+        background-color: #F2BAD4;
+        color: #412A20;
+    }
+
+    .contact i {
+        font-size: 120%;
+        margin: 1%;
+        padding: 0%;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .about-image {
+        height: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    #nav-links {
+        margin:auto;
     }
 
     #nav-links,
@@ -523,7 +604,25 @@ video {
 
     #nav-links li {
         list-style-type: none;
-        margin-right: 20px;
+        margin-right: 10px;
+        font-size: 75%;
+    }
+}
+
+@media only screen and (min-width: 2750px) {
+
+    #nav-links {
+        margin-right: 10px;
+    }
+
+    #nav-links,
+    #logo {
+        line-height: 50px;
+    }
+
+    #nav-links li {
+        list-style-type: none;
+        margin-right: 15px;
         font-size: smaller;
     }
 
