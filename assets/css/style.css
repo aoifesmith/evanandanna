@@ -375,6 +375,9 @@ footer {
     width: fit-content;
     margin: 10px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
 }
 
 .items img {
@@ -402,6 +405,7 @@ video {
 
 .meet-image {
     text-align: center;
+    
 }
 
 .meet-video {
@@ -409,7 +413,10 @@ video {
 }
 
 .how-we-met img {
-    height: 500px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    object-fit: cover;
 }
 
 
@@ -480,11 +487,11 @@ video {
 
     .flex-container {
         flex-direction: column;
-        width: 90%;
+        width: 95%;
     }
 
     .items {
-        font-size: 130%;
+        font-size: 100%;
     }
 
     .items p {
