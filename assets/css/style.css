@@ -124,6 +124,7 @@ hr {
     color: #f7f1ed;
     border-radius: 5px;
     font-size: 110%;
+    cursor: pointer;
 }
 
 #rsvp-btn:hover {
@@ -363,11 +364,13 @@ footer {
     background-color: #f7f1ed;
     width: 80%;
     margin: auto;
+    column-gap: 2%;
 }
 
 .flex-responsive {
     display: flex;
     flex-direction: row;
+    column-gap: 2%;
 }
 
 .items {
@@ -383,6 +386,11 @@ footer {
 .items img {
     height: fit-content;
     width: 100%;
+}
+
+.items p {
+    padding: 2%;
+
 }
 
 /* how we met section in story.html */
@@ -473,7 +481,7 @@ video {
 /* media query to enable responsivity*/
 
 @media screen and (max-width: 1024px) {
-    #schedule>div {
+    #schedule > div {
         width: 100%;
         clear: both;
         height: 200px;
