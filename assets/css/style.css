@@ -99,6 +99,20 @@ hr {
     background-image: url('../images/engagement-ring-white-bg.jpg');
     background-position: center;
     background-size: cover;
+      /* Animation of zoom effect */
+      animation-name: ring-zoom;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+}
+
+/* Creates zoom effect on main hero ring image */
+@keyframes ring-zoom {
+    from {
+        transform: scale(.95);
+    }
+    to {
+        transform: scale(1.025);
+    }
 }
 
 #ring-image a {
