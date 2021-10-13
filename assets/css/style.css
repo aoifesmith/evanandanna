@@ -86,7 +86,7 @@ hr {
     border-bottom: 1px solid #412A20;
 }
 
-/* rsvp section - ring image & button to direct to RSVP page*/
+/* rsvp section - ring image & button to direct to RSVP page to complet form*/
 
 #ring-container {
     height: 600px;
@@ -99,10 +99,10 @@ hr {
     background-image: url('../images/engagement-ring-white-bg.jpg');
     background-position: center;
     background-size: cover;
-      /* Animation of zoom effect */
-      animation-name: ring-zoom;
-      animation-duration: 3s;
-      animation-fill-mode: forwards;
+    /* Animation of zoom effect */
+    animation-name: ring-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 /* Creates zoom effect on main hero ring image */
@@ -147,7 +147,6 @@ hr {
     font-size: larger;
 }
 
-
 /* our story section on index.html landing page */
 
 .story-container {
@@ -185,8 +184,7 @@ hr {
     text-decoration: underline;
 }
 
-
-/* timeline events on index.html */
+/* timeline sshedule of events on index.html */
 
 #schedule {
     width: 80%;
@@ -300,7 +298,7 @@ select {
     resize: none;
 }
 
-/* rsvp-response */
+/* rsvp-response simple thank you response*/
 
 #thank-you {
     width: 80%;
@@ -310,7 +308,7 @@ select {
     margin: auto;
 }
 
-/* footer */
+/* footer styling for all pages*/
 
 footer {
     height: 20px;
@@ -355,7 +353,7 @@ footer {
     color: #412A20;
 }
 
-/* Contact Us Section in response-rsvp.html, details.html & error404.html */
+/* Contact Us section in response-rsvp.html, details.html & error404.html */
 
 .contact {
     text-align: center;
@@ -444,9 +442,6 @@ footer {
     object-fit: cover;
 }
 
-
-
-
 /* Details.html styling */
 
 .details-intro p {
@@ -514,6 +509,8 @@ footer {
         background-color: #f7f1ed;
     }
 
+    /* make navbar stick to top visible in tablet and mobile devices */
+
     .sticky {
         position: sticky;
         top: 0;
@@ -523,8 +520,7 @@ footer {
         list-style-type: none;
         margin-right: 15px;
     }
-
-
+    
     #schedule > div {
         width: 100%;
         clear: both;
