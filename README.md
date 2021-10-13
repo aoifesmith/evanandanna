@@ -1,6 +1,8 @@
 # Build a Wedding RSVP website
 
-This website has been created as a first portfolio for the Code Institute's Full Stack Software Development Course. Evan and Anna's website is a fictional website. Visit the live [website](https://aoifesmith.github.io/evanandanna/). 
+This website has been created as a first portfolio for the Code Institute's Full Stack Software Development Course. Evan and Anna's website is a fictional website. 
+
+Visit the live [website](https://aoifesmith.github.io/evanandanna/). 
 
  Place Image of responsive devices here
 
