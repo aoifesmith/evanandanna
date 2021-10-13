@@ -289,10 +289,11 @@ select {
 /* rsvp-response */
 
 #thank-you {
-    width: 100%;
+    width: 80%;
     overflow: hidden;
     text-align: center;
-
+    font-size: 200%;
+    margin: auto;
 }
 
 /* footer */
@@ -478,6 +479,16 @@ footer {
 
 .question {
     font-weight: bold;
+}
+
+/* error404 */
+
+#error404 {
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 160%;
+    margin: auto;
 }
 
 /* media query to enable responsivity*/
