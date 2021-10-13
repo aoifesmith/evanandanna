@@ -396,16 +396,18 @@ footer {
 /* how we met section in story.html */
 
 #video-container {
-    width: 80%;
-    height: 400px;
+    width: 90%;
+    height: 500px;
     margin: auto;
+    border-radius: 8px;
 }
 
-video {
-    height: 100%;
+#engage-video {
+    height: 500px;
     width: 100%;
     margin-bottom: 10px;
 }
+
 .how-we-met {
     margin: auto;
     width: 80%;
