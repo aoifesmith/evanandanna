@@ -12,7 +12,6 @@ body {
     font-family: Raleway, sans-serif;
     font-size: 130%;
     color: #412A20;
-    font-display: swap;
 }
 
 /* headings and logo*/
@@ -23,7 +22,6 @@ h2 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-display: swap;
 }
 
 h2 a {
@@ -520,7 +518,7 @@ footer {
         list-style-type: none;
         margin-right: 15px;
     }
-    
+
     #schedule > div {
         width: 100%;
         clear: both;
