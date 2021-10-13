@@ -481,6 +481,13 @@ video {
 /* media query to enable responsivity*/
 
 @media screen and (max-width: 1024px) {
+
+    #nav-links li {
+        list-style-type: none;
+        margin-right: 15px;
+    }
+
+
     #schedule > div {
         width: 100%;
         clear: both;
