@@ -495,6 +495,16 @@ footer {
 
 @media screen and (max-width: 1024px) {
 
+    nav {
+        height: 100px;
+        background-color: #f7f1ed;
+    }
+
+    .sticky {
+        position: sticky;
+        top: 0;
+    }
+
     #nav-links li {
         list-style-type: none;
         margin-right: 15px;
@@ -532,20 +542,16 @@ footer {
         text-align: justify;
         margin: 5%;
     }
-
-
 }
 
 @media only screen and (max-width: 765px) {
-
-    .sticky {
-        position: sticky;
-        top: 0;
+    nav {
+        height: 120px;
         background-color: #f7f1ed;
     }
 
     #nav-links {
-        margin-right: 10px;
+        margin-right: 10px;        
     }
 
     #nav-links,
@@ -619,6 +625,11 @@ footer {
 
 @media only screen and (max-width: 320px) {
 
+    nav {
+        height: 90px;
+        background-color: #f7f1ed;
+    }
+
     #nav-links {
         margin:auto;
     }
@@ -644,80 +655,4 @@ footer {
         font-size: 110%;
         letter-spacing: 0px;
     }
-}
-
-
-@media only screen and (min-width: 2750px) {
-
-    #nav-links {
-        margin-right: 10px;
-    }
-
-    #nav-links,
-    #logo {
-        line-height: 50px;
-    }
-
-    #nav-links li {
-        list-style-type: none;
-        margin-right: 15px;
-        font-size: smaller;
-    }
-
-    #ring-container {
-        height: 300px;
-    }
-
-    #ring-image {
-        height: 300px;
-    }
-
-    .flex-responsive {
-        flex-direction: column;
-    }
-
-    .items img {
-        height: fit-content;
-    }
-
-    .story-image {
-        height: 600px;
-    }
-
-    .social-memories {
-        width: 90%;
-    }
-
-    form {
-        width: 95%;
-        padding: 5px;
-        margin: auto;
-    }
-
-    input[type=submit] {
-        margin-top: 10px;
-        background-color: #6d5043;
-        color: #f7f1ed;
-
-    }
-
-    input[type=submit]:hover {
-        background-color: #F2BAD4;
-        color: #412A20;
-    }
-
-    .contact i {
-        font-size: 120%;
-        margin: 1%;
-        padding: 0%;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    .about-image {
-        height: 50%;
-    }
-
 }
