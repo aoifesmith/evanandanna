@@ -609,6 +609,11 @@ video {
         margin-right: 10px;
         font-size: 75%;
     }
+
+    .social-memories strong {
+        font-size: 110%;
+        letter-spacing: 0px;
+    }
 }
 
 
