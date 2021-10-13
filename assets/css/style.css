@@ -606,6 +606,10 @@ footer {
         margin:auto;
     }
 
+    #logo {
+        margin-left: 5px;
+    }
+
     #nav-links,
     #logo {
         line-height: 30px;
