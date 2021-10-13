@@ -516,7 +516,7 @@ video {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 765px) {
 
     #nav-links {
         margin-right: 10px;
@@ -599,7 +599,9 @@ video {
 
     #nav-links,
     #logo {
-        line-height: 40px;
+        line-height: 30px;
+        font-size: 110%;
+        letter-spacing: 1px;
     }
 
     #nav-links li {
@@ -608,6 +610,7 @@ video {
         font-size: 75%;
     }
 }
+
 
 @media only screen and (min-width: 2750px) {
 
