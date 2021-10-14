@@ -700,9 +700,22 @@ footer {
 @media only screen and (min-width: 1800px) {
 
     body {
-        font-size: 200%;
+        font-size: 250%;
+        margin-top: 20px
     }
 
+    #nav-links {
+        font-size: 150%;
+    }
+    
+    #logo {
+        font-size: 280%;
+    }
+
+    hr {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
 
     #ring-container {
         height: 900px;
@@ -723,7 +736,7 @@ footer {
         display: flex;
         gap: 40px;
     }
-
+    
     .story-image {
         width: 100%;
         height: 500px;
@@ -731,6 +744,14 @@ footer {
 
     .how-we-met img {
         height: 900px;
+    }
+
+    input[type=text], input[type=email] {
+        height: 70px;
+    }
+
+    select {
+        height: 80px;
     }
 
     #video-container {
@@ -741,7 +762,11 @@ footer {
         height: 900px;
     }
     #schedule div {
-        height: 500px;
+        height: 520px;
+    }
+    #map-outer {
+        height: 700px;
+        margin-bottom: 50px;
     }
 
 }
