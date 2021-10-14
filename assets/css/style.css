@@ -108,6 +108,7 @@ hr {
     from {
         transform: scale(.95);
     }
+
     to {
         transform: scale(1.025);
     }
@@ -304,7 +305,36 @@ select {
     text-align: center;
     font-size: 200%;
     margin: auto;
+    margin-bottom: 10%;
 }
+
+/* styling for pages with less content to force footer to bottom of page  eg. rsvp-response.html 
+thank you page and 404.html error page. Styling helps push the footer down to the bottom otherwise 
+it sits right under content with a lot of dead space below the footer. */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header,
+main,
+footer {
+    flex-shrink: 0;
+}
+
 
 /* footer styling for all pages*/
 
@@ -391,7 +421,7 @@ footer {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: auto; 
+    margin: auto;
 }
 
 .items img {
@@ -426,7 +456,7 @@ footer {
 
 .meet-image {
     text-align: center;
-    
+
 }
 
 .meet-video {
@@ -449,9 +479,9 @@ footer {
 }
 
 #map-outer {
-    width:80%;
-    height:400px;
-    margin:auto;
+    width: 80%;
+    height: 400px;
+    margin: auto;
 }
 
 #map {
@@ -519,7 +549,7 @@ footer {
         margin-right: 15px;
     }
 
-    #schedule > div {
+    #schedule>div {
         width: 100%;
         clear: both;
         height: 200px;
@@ -559,9 +589,9 @@ footer {
     }
 
     #nav-links {
-        float: left;   
-        margin-left: 10px;  
-        font-size: 100%;  
+        float: left;
+        margin-left: 10px;
+        font-size: 100%;
     }
 
     #nav-links,
@@ -641,7 +671,7 @@ footer {
     }
 
     #nav-links {
-        margin:auto;
+        margin: auto;
     }
 
     #logo {
