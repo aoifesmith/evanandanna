@@ -25,7 +25,7 @@ The goal of the site is for site owners to:
   * Confirm guest attendance and food choice in advance of their wedding to save food costs.
   * Provide the couples story
   * Provide information about local amenities. 
-  * Request guests to get involved in the document their memories through social profiles to create a digital album of their journey.
+  * Request guests to get involved in the documenting of their memories by tagging to the couples social profiles to create a digital album of their journey.
 
 ### Potential features to include:
   * A timeline of events/locations
