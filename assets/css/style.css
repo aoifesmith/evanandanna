@@ -752,6 +752,7 @@ footer {
 
     select {
         height: 80px;
+        width: 280px;
     }
 
     #video-container {

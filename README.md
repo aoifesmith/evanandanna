@@ -48,7 +48,7 @@ The goal of the site is for site owners to:
 
    
 ### Wireframes:
-   Wireframes were originally hand sketched designs created to aid planning the website layout. These were then created using [balsamic](https://balsamiq.com/). These include link references to other pages such as RSVP button on home page to the RSVP form page, navigation menu links etc. for user design clarity and quick navigation. 
+   Wireframes were originally hand sketched designs created to aid planning the website layout. These were then created using [balsamiq](https://balsamiq.com/). These include link references to other pages such as RSVP button on home page to the RSVP form page, navigation menu links etc. for user design clarity and quick navigation. 
     * Mobile, Tablet, and Desktop wireframes are all available [here](docs/wireframes/evanandanna-wireframes.pdf)
  
 ![Evanandanna homepage wireframe](docs/wireframes/index-all-devices-wireframe.jpg)
