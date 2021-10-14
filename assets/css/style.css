@@ -696,3 +696,38 @@ footer {
         letter-spacing: 0px;
     }
 }
+
+@media only screen and (min-width: 1800px) {
+
+    .story-image {
+        height: 900px;
+    }
+
+
+    .story-container {
+        margin: 0 auto;
+        margin-top: -1%;
+        max-height: 900px;
+        max-width: 50%;
+        display: flex;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-auto-rows: auto;
+        gap: 40px;
+        padding: 2%;
+    }
+    
+    .story-image {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        display: block;
+    }
+    
+    .story-text {
+        padding: 15px;
+        background: #ddd6d2;
+        text-align: center;
+        font-size: 200%;
+    }  
+
+}
