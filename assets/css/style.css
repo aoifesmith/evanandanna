@@ -740,7 +740,8 @@ footer {
     #engage-video {
         height: 900px;
     }
-
-
+    #schedule div {
+        height: 500px;
+    }
 
 }
