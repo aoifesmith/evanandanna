@@ -2,11 +2,10 @@
 
 This website has been created as a first portfolio for the Code Institute's Full Stack Software Development Course. Evan and Anna's website is a fictional website. 
 
-![Evanandanna responsive Design Layouts](docs/readme/planning/amiresponsive.jpg)
-
 Visit the live [website](https://aoifesmith.github.io/evanandanna/). 
 
- Place Image of responsive devices here
+![Evanandanna responsive Design Layouts](docs/readme/planning/amiresponsive.png)
+
 
 ## Table of Contents
   * [UX and UI](#ux-and-ui)
