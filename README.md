@@ -75,9 +75,9 @@ The goal of the site is for site owners to:
 
 ### Wireframes:
 
-Wireframes were originally hand sketched designs created to aid planning the website layout. These were then created using [balsamiq](https://balsamiq.com/). These include link references to other pages such as RSVP button on home page to the RSVP form page, navigation menu links etc. for user design clarity and quick navigation.
+Wireframes were originally hand sketched designs created to aid planning the website layout. These were then created using Balsamiq. These include link references to other pages such as RSVP button on home page to the RSVP form page, navigation menu links etc. for user design clarity and quick navigation.
 
-* Mobile, Tablet, and Desktop wireframes are all available [here.](docs/evanandanna-wireframes.pdf) with images to follow in the dropdown menu below.
+* Mobile, Tablet, and Desktop wireframes are all available [here.](docs/wireframes/evanandanna-wireframes.pdf) with images to follow in the dropdown menu below.
 
 <details>
 <summary> Wireframes  Layout Images</summary>
@@ -394,11 +394,6 @@ During the course of the project validation of html pages was carried out.
   ![Email success contact feature](docs/readme/testing/email-success.jpg)
   ![Telephone success contact feature](docs/readme/testing/telephone-success.jpg)
 </details>
- 
- 
-
-
-
 
   * ## Accessibility:
 
