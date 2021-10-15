@@ -183,9 +183,9 @@ The **first column** contains an image and a paragraph of text about how the cou
 The **second column** contains an image and a paragraph of text about the proposal with a read more link that takes the user to the full story on the Story page. 
 
   * The **Schedule of Events** section is made up of a header with three columns which are aligned either side by side in desktop mode or one on top of the other in tablet and mobile. These columns contain the event type, date and location on the venue grounds as well as an icon that represents the event type. A cocktail glass is displayed for the rehearsal dinner, a chapel building for the wedding and a hot dog icon for the casual brunch the day after the wedding. 
- <details>
-<summary>Schedule of Events</summary>![Schedule of events](docs/readme/design/features/timeline-desktop.png)
-</details>
+
+![Schedule of events](docs/readme/design/features/timeline-desktop.png)
+
  ## RSVP page (rsvp.html):
   * The RSVP page's main functionality is to to present a form to the user to fill out and collect their RSVP response and food choices if attending the wedding. 
   * The **form** is designed with a subtle background colour to enhance the look of the form. 
@@ -228,6 +228,7 @@ The details page is split up into different content beginning with an introducto
 
 
   * The **Schedule of Events** section is made up of three columns which are aligned either side by side in desktop mode or one on top of the other in tablet and mobile. These columns contain the event type, date and location on the venue grounds as well as an icon that represents the event type. A cocktail glass is displayed for the rehearsal dinner, a chapel building for the wedding and a hot dog icon for the casual brunch the day after the wedding. 
+
 ![Schedule of Events - Mobile](docs/readme/design/features/schedule-mobile.png)
 
    * A **List of Accommodation** provides links to accommodation in the area. These are real accommodation listings in the area with the text being a link to their website. When the links are hovered over they change their font size and directs the user to the website in another tab. 
@@ -241,7 +242,7 @@ The details page is split up into different content beginning with an introducto
 
   * In order to maintain consistency on the site a an error 404 page was created. This page is called upon when a user enters the wrong address and the address bar. Within the page there is appropriate direction and recommendations to utilise the navigation bar at the top to return to a valid page on the site. Alternatively the user is advised they can make contact with the site owner using the contact or social media links also provided on that page.
 
-![Error 404](/workspace/evanandanna/docs/readme/testing/error404test.png)
+![Error 404](docs/readme/testing/error404test.png)
 
 
  ## Future implementations:
@@ -325,41 +326,27 @@ Validator testing was carried out on all pages on the site using [W3C HTML Valid
 * There were no errors for CSS but a warning when code was directly input.
 
 *  ## Bugs
- 
-*The rsvp page’s form submit button was not returning the response-rsvp page. The method was missing so added this and working properly.
-<details>
-<summary>Button Method Bug</summary>
-![Hierarchy Button Bug](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
+* The rsvp page’s form submit button was not returning the response-rsvp page. The method was missing so added this and working properly.
 
+![Hierarchy Button Bug](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
 ![Hierarchy Button Resolve](docs/readme/testing/bugs/button-fix-replace-form.jpg)
-</details>
  
 During the course of the project validation of html pages was carried out.
 
 * There was an issue with the coding of the button and a href hierarchy.
-<details>
-<summary>Button Bug</summary>
-![Hierarchy button a href issue](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
-</details>
-  
 
+![Hierarchy button a href issue](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
+  
 The code was amended with the corrected hierarchy and the issue was resolved:
 
-  
-<details>
-<summary>Button Bug Resolve</summary>
-![Hierarchy button a href issue-resolved](docs/readme/testing/bugs/button-fix-replace-form.jpg)
-</details>
-  
+![Hierarchy button a href issue-resolved](docs/readme/testing/bugs/button-fix-replace-form.jpg) 
 
 * A Stray Div Error was noted as a result of html validation test. 
 The stray div was located and removed with success:
 
 ![Stray div](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
 
-![Stray div resolved](docs/readme/testing/bugs/stray-div-fix.jpg)
-
-  
+![Stray div resolved](docs/readme/testing/bugs/stray-div-fix.jpg) 
 
 * The validator returned an error with the form label on the RSVP form page. The issue was incorrect value assigned. This was amended and resolved the issue.
 
@@ -416,8 +403,8 @@ The height was assigned and the issue was resolved with a more defined header ar
 
 Accessibility was researched in order to explore best practice for design based around accessibility including colour contract and better user experiences.
 
-*[The Accessibility Guide for Building a Better User Experience]( https://blush.design/blog/post/accessibility-user-experience)
-*[How to pick colors for your design (A little lesson in contrast)]( https://www.youtube.com/watch?v=b-PqO-ILcYo)
+* [The Accessibility Guide for Building a Better User Experience](https://blush.design/blog/post/accessibility-user-experience)
+* [How to pick colors for your design (A little lesson in contrast)](https://www.youtube.com/watch?v=b-PqO-ILcYo)
 * [Blindness Simulator]( https://www.colorhexa.com/ff0000#blindness-simulator)
 * [Text elements must have sufficient color contrast against the background](https://dequeuniversity.com/rules/axe/3.5/color-contrast)
 * Clear and simple font selection and letter spacing was implemented to enhance the user experienced.
