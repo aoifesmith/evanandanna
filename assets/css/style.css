@@ -97,7 +97,7 @@ hr {
     background-image: url('../images/engagement-ring-white-bg.jpg');
     background-position: center;
     background-size: cover;
-    /* Animation of zoom effect */
+    /* Animation of zoom effect - referenced Love Running CI Project and amended to site's needs. */
     animation-name: ring-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -146,7 +146,9 @@ hr {
     font-size: larger;
 }
 
-/* our story section on index.html landing page */
+/* our story section on index.html landing page styling taken from and tweaked to suit site needs 
+(https://codepen.io/dcode-software/pen/JjjpzLE)*/
+
 
 .story-container {
     margin: 0 auto;
@@ -310,7 +312,8 @@ select {
 
 /* styling for pages with less content to force footer to bottom of page  eg. rsvp-response.html 
 thank you page and 404.html error page. Styling helps push the footer down to the bottom otherwise 
-it sits right under content with a lot of dead space below the footer. */
+it sits right under content with a lot of dead space below the footer. 
+Credit Dominik Weber](https://dev.to/domysee) for code*/
 
 html,
 body {

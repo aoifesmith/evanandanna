@@ -100,7 +100,7 @@ Wireframes were originally hand sketched designs created to aid planning the web
    Research was carried out on a number of free to use photography websites from Pixabay to Unsplash. The images that were finally confirmed for use were sourced from a few different photographers on Unsplash. The hero image of the engagement ring has a simple backdrop and brings focus to the ring in the image as well as the RSVP button which is an important feature to direct the user to the RSVP form page. As this is a fictitious site the images of the people were carefully selected to have as close of a likeness and resemblance to each other in order to create consistency and sale the story as being real. In order to amplify this consistency in the look and feel of the website the images were then altered using the same colouring presets on the image editing ios app Lightroom. The presets had a subtle pink tone added to all sourced images. The images were compressed using the site tinypng to help improve site loading time performance and prevent user delay wait times. When tinypng was not implemented images that were sent from the developers iPad through the mail app selected either the small or medium size selection keeping kbs sizes as low as possible without losing integrity of the image or pixilation issues.
 
   * ## Colour Scheme
-    Inspiration for the colour scheme of typography, layout colours and content components of the site was taken from the images curated. The images were run through a number of different colour generators (Brandfolder, Coolors, Procreate) until finally settled upon. These were then tested for contrast ratios in order to ensure they would pass accessibility requirements. By ensuring this step was catered out the result would be to the benefit of those with visual impairments. Where it was deemed necessary to slightly alter the colour value to achieve higher accessibility ratio results amendments were then made. These were only done where the and integrity of the design was to be maintained. See [Color Contrast Test Report](docs/readme/design/Contrast-Colour-Checking-Tests.pdf)
+    Inspiration for the colour scheme of typography, layout colours and content components of the site was taken from the images curated. The images were run through a number of different colour generators (Brandfolder, Coolors, Procreate) until finally settled upon. [Image Color Testing Report](docs/readme/testing/lighthouse/colours-generated-from-image.pdf) These were then tested for contrast ratios in order to ensure they would pass accessibility requirements. By ensuring this step was catered out the result would be to the benefit of those with visual impairments. Where it was deemed necessary to slightly alter the colour value to achieve higher accessibility ratio results amendments were then made. These were only done where the and integrity of the design was to be maintained. See [Color Contrast Test Report](docs/readme/design/Contrast-Colour-Checking-Tests.pdf) 
 
     ![Colour Palette Inspiration](docs/readme/design/image-color-palette-inspiration.png)
   ![Colour Palette](docs/readme/design/palette.jpg)
@@ -117,12 +117,7 @@ Wireframes were originally hand sketched designs created to aid planning the web
 
  * #3d2921 – dark brown – social memories slightly darker brown to draw attention to the area.
 
- * #F2BAD4 – pink – Hashtag #F2BAD4 – pink – With a priority for the site owners to draw attention to the request to use their hashtag for
-   collating images from guests it was decided to use a colour that
-   stood out from the others and the pink colour was chosen. With the
-   subtle pink tones of the pink presets used to make the images
-   consistent this colour was deemed appropriate.
-
+ * #F2BAD4 – pink – Hashtag #F2BAD4 – pink – With a priority for the site owners to draw attention to the request to use their hashtag for collating images from guests it was decided to use a colour that stood out from the others and the pink colour was chosen. With the subtle pink tones of the pink presets used to make the images consistent this colour was deemed appropriate.
 
   * ## Typography
 
@@ -365,43 +360,44 @@ During the course of the project validation of html pages was carried out.
   ![Image Skew Our Story Homepage](docs/readme/testing/bugs/image-skew-object-fit.jpg)
 </details>
 
+* Header Sticky 1 -It was decided during the course of the project to make the header with the logo and navigation links a sticky feature for smaller mobile devices. An issue to overcome was to ensure the content in the background that was scrolling behind the nav bar would not be visible behind the header as this would cause distraction. A plain background colour was added. During the process it was noted that the background colour was not showing. A number of attempts and efforts were made including assigning the background colour to the nav-links and the logo but this was not as visually appealing.
+  <details>
+  <summary>Background Colour Header Initial Resolve</summary>
 
+  ![Header bg initial resolve](docs/readme/testing/bugs/nav-bgcolor.jpg)
+</details>
   
 
-* Header sticky
+* Header sticky 2- Upon further research the bug was as a result of no height having being assigned in the header. The height was assigned and the issue was resolved with a more defined header area.
+  <details>
+  <summary>Header Background Resolve</summary>
 
-It was decided to make the header with the logo and navigation links a sticky feature for smaller mobile devices. An issue to overcome was to ensure the content in the background that was scrolling behind the nav bar would not be transparent as this would cause distraction. A plain background colour was added. During the process it was noted that the background colour was not showing. A number of attempts and efforts were made including assigning the background colour to the nav-links and the logo but this was not as visually appealing.
-
-![Header bg initial resolve](docs/readme/testing/bugs/nav-bgcolor.jpg)
-
-  
-
-Upon further research the bug was as a result of no height having being assigned in the header.
-
-![Header no height](docs/readme/testing/bugs/header-background-bug.jpg)
-
-  
-
-The height was assigned and the issue was resolved with a more defined header area.
-
-![Header success on mobile](docs/readme/testing/bugs/sticky-success.png)
-
-  
+  ![Header no height](docs/readme/testing/bugs/header-background-bug.jpg)
+  ![Header success on mobile](docs/readme/testing/bugs/sticky-success.png)
+</details>
 
 * Web browser styling issue: Firefox – Style issue for story page –about images and text overflow issue on top of page. This did not appear to be an issue on Edge, Chrome, Safari or Brave. Unfortunately these were left unresolved due to time constraints.
+  <details>
+  <summary>Web browser styling issue: Firefox</summary>
 
-![Image styling Firefox Story page](docs/readme/testing/bugs/firefox-styling error.png)
-
-![Image styling Firefox Details page](docs/readme/testing/bugs/firefox-styling-bug-story.png)
+  ![Image styling Firefox Story page](docs/readme/testing/bugs/firefox-styling-error.png)
+  ![Image styling Firefox Details page](docs/readme/testing/bugs/firefox-styling-bug-story.png)
+</details>
 
  * ## Manual Testing:
- The site was tested manually such as checking links, features were working, interactivity was successful. Features included testing if email apps would correctly open upon interacting with the email social link. Testing to see if the telephone contact number would successfully work when the link was interacted with proved successful. All the sites pages were tested and efforts were made to test on multiple browsers include Safari, Edge, Chrome, Brave and Firefox. Devices tested on were iPad, iPhone and Windows 10 Laptop.  Where the devices were not readily available the Chrome Web Development Tools were utilized. 
- 
- See reports below: 
-[Features Testing Report 1](docs/readme/testing/FeaturesTesting1.pdf)
-![Email success contact feature](docs/readme/testing/email-success.jpg)
+ The site was tested manually such as checking links, features were working, interactivity was successful. Features included testing if email apps would correctly open upon interacting with the email social link. Testing to see if the telephone contact number would successfully work when the link was interacted with proved successful. All the sites pages were tested and efforts were made to test on multiple browsers include Safari, Edge, Chrome, Brave and Firefox. Devices tested on were iPad, iPhone and Windows 10 Laptop.  Where the devices were not readily available the Chrome Web Development Tools were utilized. See nore in the 
+[Features Testing Report 1](docs/readme/testing/FeaturesTesting1.pdf).
 
-![Telephone success contact feature](docs/readme/testing/telephone-success.jpg)
+   <details>
+  <summary>Email & Telephone Success</summary>
+
+  ![Email success contact feature](docs/readme/testing/email-success.jpg)
+  ![Telephone success contact feature](docs/readme/testing/telephone-success.jpg)
+</details>
+ 
+ 
+
+
 
 
   * ## Accessibility:
@@ -452,7 +448,7 @@ Accessibility was researched in order to explore best practice for design based 
 
 * References were taken from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/03-hero-image-cover-text) Code Institute project where these were edited to suit the needs of the website. This included the animated zoom image feature as well as the the events timeline.
 
-*  [Easy Card Design Layout with CSS Grid](https://codepen.io/dcode-software/pen/JjjpzLE)
+*  [Easy Card Design Layout with CSS Grid](https://codepen.io/dcode-software/pen/JjjpzLE) Made use of this code for the about us section in the main homepage. 
 
 * The addition of the forcing the footer to the bottom was implemented as a result of a recommendation of Matt_Boden_5P_Lead in the slack community after carrying out a peer review. Code to aid with this came from the article 'Keeping the footer at the bottom with CSS Flexbox' by [Dominik Weber](https://dev.to/domysee)
 
