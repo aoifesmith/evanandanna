@@ -387,8 +387,8 @@ During the course of the project validation of html pages was carried out.
 </details>
 
  * ## Manual Testing:
- The site was tested manually such as checking links, features were working, interactivity was successful. Features included testing if email apps would correctly open upon interacting with the email social link. Testing to see if the telephone contact number would successfully work when the link was interacted with proved successful. All the sites pages were tested and efforts were made to test on multiple browsers include Safari, Edge, Chrome, Brave and Firefox. Devices tested on were iPad, iPhone and Windows 10 Laptop.  Where the devices were not readily available the Chrome Web Development Tools were utilized. See nore in the 
-[Features Testing Report 1](docs/readme/testing/FeaturesTesting1.pdf).
+ The site was tested manually such as checking links, features were working, interactivity was successful. Features included testing if email apps would correctly open upon interacting with the email social link. Testing to see if the telephone contact number would successfully work when the link was interacted with proved successful. All the sites pages were tested and efforts were made to test on multiple browsers include Safari, Edge, Chrome, Brave and Firefox. Devices tested on were iPad, iPhone and Windows 10 Laptop.  Where the devices were not readily available the Chrome Web Development Tools were utilized. See more in the 
+[Features Testing Report 1](docs/readme/testing/FeaturesTesting1.pdf) and the [RSVP form Testing Report](docs/readme/testing/RSVP-form-tests.pdf)
 
    <details>
   <summary>Email & Telephone Success</summary>
@@ -401,17 +401,26 @@ During the course of the project validation of html pages was carried out.
 
 Accessibility was researched in order to explore best practice for design based around accessibility including colour contract and better user experiences.
 
+* Aria labelling was implemented on all pages.
+* Results from Lighthouse testing passed all for accessibility. See full [Lighthouse Accessibility Report](docs/readme/testing/lighthouse/index.html-lighthouse-reportALL.pdf). 
+
+![Lighthouse Report - Homepage](docs/readme/testing/lighthouse/index.html-lighthouse-report.png)
+* Consulted WAVE website for accesibility which passed without errors.
+
+![WebaimAccessibility](docs/readme/testing/lighthouse/webaimAccessibilityChecker.png)
+
 * [The Accessibility Guide for Building a Better User Experience](https://blush.design/blog/post/accessibility-user-experience)
 * [How to pick colors for your design (A little lesson in contrast)](https://www.youtube.com/watch?v=b-PqO-ILcYo)
 * [Blindness Simulator]( https://www.colorhexa.com/ff0000#blindness-simulator)
 * [Text elements must have sufficient color contrast against the background](https://dequeuniversity.com/rules/axe/3.5/color-contrast)
 * Clear and simple font selection and letter spacing was implemented to enhance the user experienced.
-* Aria labelling was implemented on all pages.
-* Results from Lighthouse testing passed all for accessibility. See full [Lighthouse Accessibility Report](docs/readme/testing/lighthouse/index.html-lighthouse-reportALL.pdf). 
-![Lighthouse Report - Homepage](docs/readme/testing/lighthouse/index.html-lighthouse-report.png)
-* Consulted WAVE website for accesibility which passed without errors.
-
-![WebaimAccessibility](docs/readme/testing/lighthouse/webaimAccessibilityChecker.png)
+* [Testing colour accessibility Chrome extension](https://colourcontrast.cc)
+* [Colours with good contrast](https://www.w3.org/WAI/perspective-videos/contrast/)
+* [Use sufficient color contrast](https://accessibility.huit.harvard.edu/use-sufficient-color-contrast)
+* [Ally Accessibility Checklist](https://www.ed.ac.uk/files/atoms/files/ally_accessibility_checklist.pdf)
+* [UI Design | How to choose colors and color palettes](https://www.youtube.com/watch?v=wuZuvhF4u6U)
+* [How I Organize Colors for a UI Design Project](https://www.youtube.com/watch?v=9S8LGdpNh4Q)
+* [How to pick colors for your design (A little lesson in contrast)](https://www.youtube.com/watch?v=b-PqO-ILcYo)
 
 # Credits
 
