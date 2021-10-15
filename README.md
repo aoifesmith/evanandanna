@@ -14,11 +14,15 @@ Visit the live [website](https://aoifesmith.github.io/evanandanna/).
     * [Wireframes](#wireframes)
 *  [Design](#design)
     * [Imagery](#imagery)
+    * [Colour Scheme](#colour-scheme)
+    * [Typography](#typography)
+    * [Favicon](#favicon)
 *  [Features](#features)
 *  [Deployment](#deployment)
 *  [Testing](#testing)
     * [Validator Testing](#validator-testing)
     *  [Bugs](#bugs)
+    *  [Manual Testing](#manual-testing)
     *  [Accessibility](#accessibility)
 *  [Credits](#credits)
     *  [Imagery](#imagery)
@@ -97,10 +101,10 @@ Wireframes were originally hand sketched designs created to aid planning the web
 
   * ## Colour Scheme
     Inspiration for the colour scheme of typography, layout colours and content components of the site was taken from the images curated. The images were run through a number of different colour generators (Brandfolder, Coolors, Procreate) until finally settled upon. These were then tested for contrast ratios in order to ensure they would pass accessibility requirements. By ensuring this step was catered out the result would be to the benefit of those with visual impairments. Where it was deemed necessary to slightly alter the colour value to achieve higher accessibility ratio results amendments were then made. These were only done where the and integrity of the design was to be maintained. See [Color Contrast Test Report](docs/readme/design/Contrast-Colour-Checking-Tests.pdf)
-    <details><summary> Color Palette </summary>
+
+    ![Colour Palette Inspiration](docs/readme/design/image-color-palette-inspiration.png)
   ![Colour Palette](docs/readme/design/palette.jpg)
 ![Colour Palette](docs/readme/design/final-palette.png)
-</details>
 
  * #f7f1ed – main background colour on all pages, rsvp button, timeline schedule text, form buttons
    #ddd6d2 – subtle variation of colour used to define the form area and draw attention to the feature.
@@ -177,7 +181,9 @@ Content is made up of hero image with an animated zoom effect to draw attention 
 ![Heading- Active](docs/readme/design/features/heading2.png)
 
   * **Our Story** section is made up of a header with two columns that contain image and text. These columns change in layout with them being side by side or one on top of the other for mobile.
- ![Story](docs/readme/design/features/story-home.png/)
+
+ ![Story](docs/readme/design/features/story-home.png)
+
 The 'Our Story' header is interactive and increases in size when hoovered over. This is a clickable link to direct the user to the Story page on the website. 
 The **first column** contains an image and a paragraph of text about how the couple met with a read more link that takes the user to the full story on the Story page.  
 The **second column** contains an image and a paragraph of text about the proposal with a read more link that takes the user to the full story on the Story page. 
@@ -268,7 +274,7 @@ The details page is split up into different content beginning with an introducto
  *  [CSS](https://en.wikipedia.org/wiki/CSS)
 
    * ## Frameworks and Libraries
-    *  [Unsplash](https://unsplash.com/)
+  *  [Unsplash](https://unsplash.com/)
   *  [Coolors.co](https://coolors.co)
  * [Balsamiq](https://balsamiq.com/)
  *  [Brandfolder](https://brandfolder.com/workbench/color-palette)
@@ -288,9 +294,8 @@ The details page is split up into different content beginning with an introducto
  *  [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
  *  [GitHub Mobile](https://github.com/mobile)
  *  [Procreate](https://apps.apple.com/us/app/procreate/id425073498)
- * [Trello- Project management*](https://trello.com)
+ * [Trello- Project management](https://trello.com) Throughout the all stages the project management app Trello was utilized. It aided in organising to do checklists, set reminders, organising images and documentation as well as an area to place ideas. Lists were created for Planning, Content, Git & To do Code checklists, Mentor, Readme.md, Accessibility and Testing. These lists contained cards for note taking, research, scheduling mentor meetings, collation of admin, testing with checklists and screenshots of results. Files were added to cards such as images sourced or other relevant documentation. Some cards were set up with due dates which were connected to the developer’s email if getting close to deadline a reminder was sent. The management app was helpful to keep on track and focus on prioritized items within the project.
 
-*Throughout the all stages the project management app Trello was utilized. It aided in organising to do checklists, set reminders, organising images and documentation as well as an area to place ideas. Lists were created for Planning, Content, Git & To do Code checklists, Mentor, Readme.md, Accessibility and Testing. These lists contained cards for note taking, research, scheduling mentor meetings, collation of admin, testing with checklists and screenshots of results. Files were added to cards such as images sourced or other relevant documentation. Some cards were set up with due dates which were connected to the developer’s email if getting close to deadline a reminder was sent. The management app was helpful to keep on track and focus on prioritized items within the project.
 ![Trello](docs/readme/planning/trello-planning-management-tool.jpg)
 ![Trello Scheduling](docs/readme/planning/trello-schedule-mentor-meeting-info-hidden.jpg)
   
@@ -326,40 +331,40 @@ Validator testing was carried out on all pages on the site using [W3C HTML Valid
 * There were no errors for CSS but a warning when code was directly input.
 
 *  ## Bugs
-* The rsvp page’s form submit button was not returning the response-rsvp page. The method was missing so added this and working properly.
 
-![Hierarchy Button Bug](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
-![Hierarchy Button Resolve](docs/readme/testing/bugs/button-fix-replace-form.jpg)
- 
 During the course of the project validation of html pages was carried out.
 
-* There was an issue with the coding of the button and a href hierarchy.
+* The rsvp page’s form submit button was not returning the response-rsvp page. The method was missing so added this and working properly.
+  <details>
+  <summary>RSVP Button Link</summary>
 
-![Hierarchy button a href issue](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
-  
-The code was amended with the corrected hierarchy and the issue was resolved:
+  ![Hierarchy Button Bug](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
+  ![Hierarchy Button Resolve](docs/readme/testing/bugs/button-fix-replace-form.jpg)
+  </details>
+ 
+* A Stray Div Error was noted as a result of html validation test. The stray div was located and removed with success:
+  <details>
+  <summary>Stray Div</summary>
 
-![Hierarchy button a href issue-resolved](docs/readme/testing/bugs/button-fix-replace-form.jpg) 
+  ![Stray div](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
+  ![Stray div resolved](docs/readme/testing/bugs/stray-div-fix.jpg) 
+</details>
 
-* A Stray Div Error was noted as a result of html validation test. 
-The stray div was located and removed with success:
+* The HTML validator returned an error with the form label on the RSVP form page. The issue was incorrect value assigned. This was amended and resolved the issue.
+  <details>
+  <summary>Form Label Not Assigned Correctly</summary>
 
-![Stray div](docs/readme/testing/bugs/button-a-href-placement-stray-div-error.jpg)
-
-![Stray div resolved](docs/readme/testing/bugs/stray-div-fix.jpg) 
-
-* The validator returned an error with the form label on the RSVP form page. The issue was incorrect value assigned. This was amended and resolved the issue.
-
-
-![Form Label Error](docs/readme/testing/bugs/formErrorlabel.jpg)
-
-![Form Label Error](docs/readme/testing/bugs/formErrorlabelfixed.jpg)
-
+  ![Form Label Error](docs/readme/testing/bugs/formErrorlabel.jpg)
+  ![Form Label Error](docs/readme/testing/bugs/formErrorlabelfixed.jpg)
+</details>
 
 * Image skew issue for the about images on the main home page Our story section. The styling code was amended and issue was resolved.
+  <details>
+  <summary>Image Skewed</summary>
 
+  ![Image Skew Our Story Homepage](docs/readme/testing/bugs/image-skew-object-fit.jpg)
+</details>
 
-![Image Skew Our Story Homepage](docs/testing/bugs/image skew-object fit.jpg)
 
   
 
