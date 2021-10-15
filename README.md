@@ -410,6 +410,7 @@ Accessibility was researched in order to explore best practice for design based 
 * Results from Lighthouse testing passed all for accessibility. See full [Lighthouse Accessibility Report](docs/readme/testing/lighthouse/index.html-lighthouse-reportALL.pdf). 
 ![Lighthouse Report - Homepage](docs/readme/testing/lighthouse/index.html-lighthouse-report.png)
 * Consulted WAVE website for accesibility which passed without errors.
+
 ![WebaimAccessibility](docs/readme/testing/lighthouse/webaimAccessibilityChecker.png)
 
 # Credits
