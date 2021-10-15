@@ -382,8 +382,16 @@ The height was assigned and the issue was resolved with a more defined header ar
 
 ![Image styling Firefox Details page](docs/readme/testing/bugs/firefox-styling-bug-story.png)
 
+ * ## Manual Testing:
+ The site was tested manually such as checking links, features were working, interactivity was successful. Features included testing if email apps would correctly open upon interacting with the email social link. Testing to see if the telephone contact number would successfully work when the link was interacted with proved successful. All the sites pages were tested and efforts were made to test on multiple browsers include Safari, Edge, Chrome, Brave and Firefox. Devices tested on were iPad, iPhone and Windows 10 Laptop.  Where the devices were not readily available the Chrome Web Development Tools were utilized. 
+ 
+ See reports below: 
+[Features Testing Report 1](docs/readme/testing/FeaturesTesting1.pdf)
+![Email success contact feature](docs/readme/testing/email-success.jpg)
 
+![Telephone success contact feature](docs/readme/testing/telephone-success.jpg)
 
+ 
   * ## Accessibility:
 
 Accessibility was researched in order to explore best practice for design based around accessibility including colour contract and better user experiences.
