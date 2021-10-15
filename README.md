@@ -182,7 +182,7 @@ Apart from the header and footer the main homepage contains the hero image with 
 
  ![Story](docs/readme/design/features/story-home.png)
 
-The 'Our Story' header is interactive and increases in size when hoovered over. This is a clickable link to direct the user to the Story page on the website. 
+The 'Our Story' header is interactive and increases in size when hovered over. This is a clickable link to direct the user to the Story page on the website. 
 The **first column** contains an image and a paragraph of text about how the couple met with a read more link that takes the user to the full story on the Story page.  
 The **second column** contains an image and a paragraph of text about the proposal with a read more link that takes the user to the full story on the Story page. 
 
@@ -202,7 +202,8 @@ The **second column** contains an image and a paragraph of text about the propos
 
  ## RSVP Response page (rsvp-response.html):
 
-  * The RSVP response page is comprises of a simple **'Thank You'** header and paragraph of thanks. It provides the user with successful acknowledgement for the submission of their RSVP. This provides comfort and to the user that they have correctly carried out the procedure and reinforces that they have finished with the process. 
+  * The RSVP response page comprises of a simple **'Thank You'** heading and paragraph of thanks. It provides the user with successful acknowledgement for the submission of their RSVP. This provides comfort to the user that they have correctly carried out the procedure and reinforces that they have finished with the process of submitting their details. 
+
    * A **Get In Touch** section is located just above the footer. It provides the user with a telephone number that the user can contact the couple on. This is an interactive feature that works on mobile devices and actions the phone app on their device if they click on the number link. A postal address is provided for users that want to communicate with the couple via mail. 
  ![Get In Touch](docs/readme/design/features/getintouch.png)
 
@@ -212,12 +213,15 @@ The Our Story page is made up of an 'About Us' section, 'How we met' and 'The En
 
   * The Our Story pages begins with an **'About Us'** Section which is made up of an portrait image of the couple when they were young. A brief paragraph is supplied to provide background information about the couple. It is an important feature as the couple do not know every guest personally and vice-versa so this gives some interests or points for introduction. On large screen devices this section is split into 4 columns and 1 row. On mobile it is  2 columns and 2 rows and on mobile it is 1 column with for rows. 
 
+  ![Young Kids Photo & Descriptive About Us Text](docs/readme/design/features/aboutus.png)
+
   * In the **'How We Met'** section the user is presented with an image of the couple in their teens with a paragraph of text telling the couples story. 
   
   * To tell the story of **The Engagement** a brief video is provided along with text to follow below. 
   * The Engagement video is embedded by way of iFrame which links to a YouTube video. The video comprises of a number of the curated images. It contains title text to further tell the story. Audio in the form of a lighthearted song is played when the video has been interacted with and started. The video is used to provide visual credibility of the engagement story text that follows below it. In case of unsupported browser issues a link to the YouTube video is provided below. The video supports the story of the couples engagements.
-
-![Video](docs/readme/design/features/video-mobile.png)
+  <p align="center">
+   <img src="docs/readme/design/features/video-mobile.png" alt="Engagement Video"/>
+  </p>
 
   * The story of the engagement proposal is provided in written context for the user to read. It is made up of 2 paragrpagh of text. 
 
@@ -228,15 +232,18 @@ The details page is split up into different content beginning with an introducto
 
   * An **interactive Google map** is provided for the user which indicates the location of the event. As all activities occur in the one area they have the main information. However for those that want to venture or learn more having this map is a great starting point for those not familiar with the area. 
 
- ![Map](docs/readme/design/features/map-mobile.png)
-
+   <p align="center">
+   <img src="docs/readme/design/features/map-mobile.png" alt="Map"/>
+  </p>
 
   * The **Schedule of Events** section is made up of three columns which are aligned either side by side in desktop mode or one on top of the other in tablet and mobile. These columns contain the event type, date and location on the venue grounds as well as an icon that represents the event type. A cocktail glass is displayed for the rehearsal dinner, a chapel building for the wedding and a hot dog icon for the casual brunch the day after the wedding. 
 
-![Schedule of Events - Mobile](docs/readme/design/features/schedule-mobile.png)
+  <p align="center">
+   <img src="docs/readme/design/features/schedule-mobile.png" alt="Schedule of Events - Mobile"/>
+  </p>
 
    * A **List of Accommodation** provides links to accommodation in the area. These are real accommodation listings in the area with the text being a link to their website. When the links are hovered over they change their font size and directs the user to the website in another tab. 
-   * The **FAQs** section provides the user with general information about the wedding event and answer questions that may not have been addressed on the invitation. These include RSVP deadline, if kids are welcome, parking and more. If the user still has want to for information they are provided with directive to contact the couple using the contact information or social media links below. 
+   * The **FAQs** section provides the user with general information about the wedding event and answers questions that may not have been addressed on the invitation. These include RSVP deadline, if kids are welcome, parking and more. If the user still has want to for information they are provided with directive to contact the couple using the contact information or social media links below. 
    * A **Get In Touch** section is located just above the footer. It provides the user with a telephone number that the user can contact the couple on. This is an interactive feature that works on mobile devices and actions the phone app on their device if they click on the number link. A postal address is provided for users that want to communicate with the couple via mail. 
 
 ![Get in Touch](docs/readme/design/features/getintouch.png)
@@ -244,7 +251,7 @@ The details page is split up into different content beginning with an introducto
 
  ## 404 Error page (404.html):
 
-  * In order to maintain consistency on the site a an error 404 page was created. This page is called upon when a user enters the wrong address and the address bar. Within the page there is appropriate direction and recommendations to utilise the navigation bar at the top to return to a valid page on the site. Alternatively the user is advised they can make contact with the site owner using the contact or social media links also provided on that page.
+  * In order to maintain consistency on the site a an error 404 page was created. This page is called upon if there is a broken link on the site or when a user enters the wrong address in the address bar. Within the page there is appropriate direction and recommendations to utilise the navigation bar at the top to return to a valid page on the site. Alternatively the user is advised they can make contact with the site owner using the contact or social media links also provided on that page.
 
 ![Error 404](docs/readme/testing/error404test.png)
 
@@ -252,13 +259,10 @@ The details page is split up into different content beginning with an introducto
  ## Future implementations:
 
   * Add information about the bridal party and groomsmen providing brief synopsis and possible contact details.
-  * Features to implement in future
 
   * Add a gallery of the curated memories
 
-  * Add posts of additional events along the course of the engagement.
-
-  * Hen and stag party, cake tasting, meal tasting, sneak peak of the decor,
+  * Add posts of additional events along the course of the engagement e.g. Hen and stag party, cake tasting, meal tasting, sneak peak of the decor,
 
   * The above features were considered during the initial development stage but were considered lower priorities or deemed not relevant until the couple would be further along their journey where they will have the content.
 
@@ -272,27 +276,27 @@ The details page is split up into different content beginning with an introducto
  *  [CSS](https://en.wikipedia.org/wiki/CSS)
 
    * ## Frameworks and Libraries
-  *  [Unsplash](https://unsplash.com/)
-  *  [Coolors.co](https://coolors.co)
- * [Balsamiq](https://balsamiq.com/)
- *  [Brandfolder](https://brandfolder.com/workbench/color-palette)
- *  [Google Fonts](https://fonts.google.com/)
- *  [Font Awesome](https://fontawesome.com/)
- *  [VS Code](https://code.visualstudio.com/)
- *  [GitHub](https://github.com/)
- *  [Am I Responsive](http://ami.responsivedesign.is/)
- *  [Favicon.io](https://favicon.io)
- *  [Splice](https://apps.apple.com/us/app/splice-video-editor-maker/id409838725)
- *  [YouTube](https://youtube.com)
- *  [StackEdit](https://stackedit.io/)
- *  [WeTransfer](https://wetransfer.com/)
- *  [Slack](https://slack.com/)
- *  [Tinypng](https://tinypng.com/)
- *  [Inspect Browser iOS app](https://pdyn.net)
- *  [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
- *  [GitHub Mobile](https://github.com/mobile)
- *  [Procreate](https://apps.apple.com/us/app/procreate/id425073498)
- * [Trello- Project management](https://trello.com) Throughout the all stages the project management app Trello was utilized. It aided in organising to do checklists, set reminders, organising images and documentation as well as an area to place ideas. Lists were created for Planning, Content, Git & To do Code checklists, Mentor, Readme.md, Accessibility and Testing. These lists contained cards for note taking, research, scheduling mentor meetings, collation of admin, testing with checklists and screenshots of results. Files were added to cards such as images sourced or other relevant documentation. Some cards were set up with due dates which were connected to the developer’s email if getting close to deadline a reminder was sent. The management app was helpful to keep on track and focus on prioritized items within the project.
+   *  [Unsplash](https://unsplash.com/)
+   *  [Coolors.co](https://coolors.co)
+   *  [Balsamiq](https://balsamiq.com/)
+   *  [Brandfolder](https://brandfolder.com/workbench/color-palette)
+   *  [Google Fonts](https://fonts.google.com/)
+   *  [Font Awesome](https://fontawesome.com/)
+   *  [VS Code](https://code.visualstudio.com/)
+   *  [GitHub](https://github.com/)
+   *  [Am I Responsive](http://ami.responsivedesign.is/)
+   *  [Favicon.io](https://favicon.io)
+   *  [Splice](https://apps.apple.com/us/app/splice-video-editor-maker/id409838725)
+   *  [YouTube](https://youtube.com)
+   *  [StackEdit](https://stackedit.io/)
+   *  [WeTransfer](https://wetransfer.com/)
+   *  [Slack](https://slack.com/)
+   *  [Tinypng](https://tinypng.com/)
+   *  [Inspect Browser iOS app](https://pdyn.net)
+   *  [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+   *  [GitHub Mobile](https://github.com/mobile)
+   *  [Procreate](https://apps.apple.com/us/app/procreate/id425073498)
+   * [Trello- Project management](https://trello.com) Throughout the all stages the project management app Trello was utilized. It aided in organising to do checklists, set reminders, organising images and documentation as well as an area to place ideas. Lists were created for Planning, Content, Git & To do Code checklists, Mentor, Readme.md, Accessibility and Testing. These lists contained cards for note taking, research, scheduling mentor meetings, collation of admin, testing with checklists and screenshots of results. Files were added to cards such as images sourced or other relevant documentation. Some cards were set up with due dates which were connected to the developer’s email if getting close to deadline a reminder was sent. The management app was helpful to keep on track and focus on prioritized items within the project.
 
 ![Trello](docs/readme/planning/trello-planning-management-tool.jpg)
 ![Trello Scheduling](docs/readme/planning/trello-schedule-mentor-meeting-info-hidden.jpg)
@@ -302,31 +306,26 @@ The details page is split up into different content beginning with an introducto
 
 This project was created using Gitpod. On occasion when there were server site issues with Gitpod VS code was used to progress and code was copied and pasted to the project on Gitpod. The site was deployed to Github pages.
 
-i. On GitHub, navigate to your repositories.
-
-ii. Select the site.
-
-iii. Navigate to *Settings*.
-
-iv. In the left sidebar, select Pages.
-
-v. Under the GitHub Pages from the source section drop-down menu, select the main branch.
-
-vi. Upon correct selection and saving of the main branch, refresh the page and the site is successfully deployed.
-
-vii, The site is published with the live site address provided.
+    i. On GitHub, navigate to your repositories.
+    ii. Select the site.
+    iii. Navigate to *Settings*.
+    iv. In the left sidebar, select Pages.
+    v. Under the GitHub Pages from the source section drop-down menu, select the main branch.
+    vi. Upon correct selection and saving of the main branch, refresh the page and the site is successfully deployed.
+    vii. The site is published with the live site address provided.
 
 # Testing
 
 *  ## Validator Testing
 
-Validator testing was carried out on all pages on the site using [W3C HTML Validator](https://validator.w3.org) for html and [Jigsaw](https://jigsaw.w3.org/css-validator/) for CSS. See [Full Testing results Report](docs/readme/testing/htmlcss-validator/ALLHTMLCSSValidator-NoErrors.pdf)
+Validator testing was carried out on all pages on the site using W3C HTML Validator for HTML and Jigsaw validator for CSS. See [Full Testing results Report](docs/readme/testing/htmlcss-validator/ALLHTMLCSSValidator-NoErrors.pdf)
 
 * There were no errors or warnings for all html pages where code was directly input.
 
 * There were no errors or warnings when for CSS deployed site was input.
 
 * There were no errors for CSS but a warning when code was directly input.
+
 
 *  ## Bugs
 
@@ -408,56 +407,37 @@ Accessibility was researched in order to explore best practice for design based 
 * [Text elements must have sufficient color contrast against the background](https://dequeuniversity.com/rules/axe/3.5/color-contrast)
 * Clear and simple font selection and letter spacing was implemented to enhance the user experienced.
 * Aria labelling was implemented on all pages.
-* Results from Lighthouse testing deemed accessibility to be sufficient.
-
-
+* Results from Lighthouse testing passed all for accessibility. See full [Lighthouse Accessibility Report](docs/readme/testing/lighthouse/index.html-lighthouse-reportALL.pdf). 
+![Lighthouse Report - Homepage](docs/readme/testing/lighthouse/index.html-lighthouse-report.png)
+* Consulted WAVE website for accesibility which passed without errors.
+![WebaimAccessibility](docs/readme/testing/lighthouse/webaimAccessibilityChecker.png)
 
 # Credits
 
   *   ## Images & Media
-
-*  [Unsplash](https://unsplash.com)
-
-*  [Ring Image - Jenna Day](https://unsplash.com/@jennaday)
-
-*  [Engagment Photos - Taylor Brandon](https://unsplash.com/@house_42)
-
-*  [Couple on Bridge with Dog - Shea Rouda](https://unsplash.com/@shrouda)
-
-*  [Teen Couple on Beach - Erik Lucatero](https://unsplash.com/@erik_lucatero)
-
-*  [Young Boy - Zahra Amiri](https://unsplash.com/@zahraamiri)
-
-*  [Young Girl with Beads - Kelly Sikkema](https://unsplash.com/@kellysikkema)
-
-*  [Icons - Font Awesome](https://fontawesome.com/)
-
-*  [Splice - Audio](https://apps.apple.com/us/app/splice-video-editor-maker/id409838725) Custom created video using above credited photographers images. Audio included in Splice editor.
-
-*  [Audio - A Beautiful Day - Wolf Samuels](https://apps.apple.com/us/app/splice-video-editor-maker/id409838725)
-
-*  ## Content
-
-* All text content on the site is my own. Stories and details are all fictitious creations. The wedding venue is a real location although the amenities do not contain all features. Location is real. The accommodation are real and within close proximity to the venue. Appropriate links to their websites are used.
-
-*  ## Code 
-
-* Multiple sites were researched with inspiration taken from many.
-
-* References were taken from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/03-hero-image-cover-text) Code Institute project where these were edited to suit the needs of the website. This included the animated zoom image feature as well as the the events timeline.
-
-*  [Easy Card Design Layout with CSS Grid](https://codepen.io/dcode-software/pen/JjjpzLE) Made use of this code for the about us section in the main homepage. 
-
-* The addition of the forcing the footer to the bottom was implemented as a result of a recommendation of Matt_Boden_5P_Lead in the slack community after carrying out a peer review. Code to aid with this came from the article 'Keeping the footer at the bottom with CSS Flexbox' by [Dominik Weber](https://dev.to/domysee)
-
-*  [W3C](www.w3schools.com) provided fantastic references for solutions to problems and bugs within the code along the way.
-
-*  ## Acknowledgements
-
-* Mentor Seun for reassurances and helpful guidance on meetings.
-
-* The incredible CI community & fellow students in the 17th-Aug-Start-Team channel (with particular mention to FabioMadeira_5P & David Kelleher) who provided pointers, fresh eyes and vital mental and educational support along the way. The list is plentiful on CI Slack but not limited to Sven Lowry_5P & David_Bowers. 
-
-* A number of readme files were researched for ideas on structure of file and topics to address.  In particular the structure and layout that was used for inspiration from # [MaggieWalsh](https://github.com/MaggieWalsh)'s readme.
-
-* Matt_Boden_5P_Lead for taking time to review my site in the Peer review code channel on slack and making recommendations for improvements. Where possible to implement these were taken on board and carried out.
+  *  [Unsplash](https://unsplash.com)
+  *  [Ring Image - Jenna Day](https://unsplash.com/@jennaday)
+  *  [Engagment Photos - Taylor Brandon](https://unsplash.com/@house_42)
+  *  [Couple on Bridge with Dog - Shea Rouda](https://unsplash.com/@shrouda)
+  *  [Teen Couple on Beach - Erik Lucatero](https://unsplash.com/@erik_lucatero)
+  *  [Young Boy - Zahra Amiri](https://unsplash.com/@zahraamiri)
+  *  [Young Girl with Beads - Kelly Sikkema](https://unsplash.com/@kellysikkema)
+  *  [Icons - Font Awesome](https://fontawesome.com/)
+  *  [Splice - Audio](https://apps.apple.com/us/app/splice-video-editor-maker/id409838725) Custom created video using above credited photographers images. Audio included in Splice editor.
+  *  [Audio - A Beautiful Day - Wolf Samuels](https://apps.apple.com/us/app/splice-video-editor-maker/id409838725)
+  
+  *  ## Content
+  * All text content on the site is my own. Stories and details are all fictitious creations. The wedding venue is a real location although the amenities do not contain all features. Location is real. The accommodation are real and within close proximity to the venue. Appropriate links to their websites are used.
+  
+  *  ## Code 
+  * Research was carried out on multiple websites with inspiration taken from many.
+  * References were taken from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/03-creating-the-hero-image/03-hero-image-cover-text) Code Institute project where these were edited to suit the needs of the website. This included the animated zoom image feature as well as the the events timeline.
+  *  [Easy Card Design Layout with CSS Grid](https://codepen.io/dcode-software/pen/JjjpzLE) Made use of this code for the about us section in the main homepage. 
+  * The addition of the forcing the footer to the bottom was implemented as a result of a recommendation of Matt_Boden_5P_Lead in the slack community after carrying out a peer review. Code to aid with this came from the article 'Keeping the footer at the bottom with CSS Flexbox' by [Dominik Weber](https://dev.to/domysee)
+  *  [W3C](www.w3schools.com) provided fantastic references for solutions to problems and bugs within the code along the way.
+  
+  *  ## Acknowledgements
+  * Mentor Seun for reassurances and helpful guidance on meetings.
+  * The incredible CI community & fellow students in the 17th-Aug-Start-Team channel (with particular mention to FabioMadeira_5P & David Kelleher) who provided pointers, fresh eyes and vital mental and educational support along the way. The list is plentiful on CI Slack and includes but not limited to Sven Lowry_5P & David_Bowers_5P. 
+  * A number of readme files were researched for ideas on structure of file and topics to address.  In particular the structure and layout that was used for inspiration from # [MaggieWalsh](https://github.com/MaggieWalsh)'s readme.
+  * Matt_Boden_5P_Lead for taking time to review my site in the Peer review code channel on slack and making recommendations for improvements. Where possible to implement these were taken on board and carried out.
